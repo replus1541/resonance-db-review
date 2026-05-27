@@ -20,13 +20,16 @@
   .grid{display:grid;grid-template-columns:1fr;gap:12px}@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static;height:auto}.slot{width:auto}}
 
   header{display:flex;align-items:center;gap:18px}.top-tabs{display:flex;gap:6px}.top-tab{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:6px;padding:7px 12px;font-weight:700;cursor:pointer}.top-tab.active{background:#172033;color:#fff;border-color:#172033}
+  .mobile-menu-button{display:none;width:38px;height:38px;border:1px solid var(--line);background:#fff;border-radius:6px;padding:8px;cursor:pointer;flex:0 0 auto}.mobile-menu-button span{display:block;height:2px;background:var(--ink);border-radius:999px;margin:5px 0}.sidebar-backdrop{display:none}
   .tag-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 14px}.tag-toolbar input[type="search"],.tag-toolbar input[type="text"]{width:auto;min-width:220px;margin:0}.tag-toolbar button,.tag-card button,.tag-actions button,.file-button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:7px 9px;cursor:pointer;color:var(--ink);font-weight:700}.tag-toolbar button:hover,.tag-card button:hover,.tag-actions button:hover,.file-button:hover{background:#eef3ff}.tag-toolbar button.active-filter{background:#172033;color:#fff;border-color:#172033}
   .tag-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:14px}.tag-list{display:flex;flex-direction:column;gap:10px}.tag-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-card-header{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px}.tag-card-title{display:flex;gap:8px;align-items:center;min-width:0}.tag-type{font-size:12px;color:#fff;background:#334155;border-radius:999px;padding:3px 8px;white-space:nowrap}.tag-name{font-weight:800}.tag-desc{white-space:pre-wrap;line-height:1.45;color:#243044;margin:8px 0}.tag-editor{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.tag-editor input{flex:1;min-width:220px;margin:0}.tag-added-wrap{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}.tag-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;min-height:28px}.tag-badge{display:inline-flex;align-items:center;gap:6px;border:1px solid #bfdbfe;background:#eff6ff;color:#1e3a8a;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:700;cursor:grab;user-select:none}.tag-badge.auto{border-color:#facc15;background:#fef9c3;color:#713f12}.tag-badge:active{cursor:grabbing}.tag-badge.drag-over{outline:2px solid #2563eb;outline-offset:2px}.tag-badge button{border:0;background:transparent;padding:0 1px;color:inherit;font-weight:900;cursor:pointer}.tag-count{display:inline;font-size:12px;font-weight:900;color:#172033;padding:0 0 0 2px;min-width:0;height:auto;border-radius:0;background:transparent}.tag-dict-badge{cursor:pointer}.tag-dict-badge:hover{background:#dbeafe}.tag-dict-badge:focus-visible{outline:2px solid #2563eb;outline-offset:2px}.tag-side{position:sticky;top:72px;align-self:start;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-side h3{margin-top:0}.tag-dict{display:flex;flex-wrap:wrap;gap:6px}.tag-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.tag-muted{color:var(--muted);font-size:12px}.hidden-file{display:none}.auto-box{border:1px solid var(--line);border-radius:8px;background:#f8fafc;padding:10px;margin-bottom:12px}.auto-box h4{margin:0 0 8px;font-size:14px}.auto-candidates{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow:auto;margin-top:8px}.auto-candidate{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px}.auto-candidate-head{display:flex;gap:6px;align-items:center}.auto-candidate-head input[type="text"]{min-width:0;margin:0;padding:6px 7px}.auto-candidate-head input[type="checkbox"]{width:auto;margin:0}.auto-candidate details{margin-top:6px}.auto-candidate summary{cursor:pointer;color:#334155;font-size:12px;font-weight:800}.auto-example{border-top:1px solid #eef2f7;padding-top:5px;margin-top:5px;font-size:12px;line-height:1.35}.tag-result-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.tag-result-actions{display:flex;gap:6px;flex-wrap:wrap}.tag-result-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-result-title{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.tag-result-title a{font-weight:800;color:#0f3b7a;text-decoration:none}.tag-result-title a:hover{text-decoration:underline}.tag-result-meta{display:flex;gap:6px;flex-wrap:wrap}.tag-result-chip{background:#eef2f7;border-radius:999px;color:#334155;font-size:12px;font-weight:700;padding:3px 8px}.tag-result-empty{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px}.tag-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.35);z-index:30;display:flex;align-items:center;justify-content:center;padding:20px}.tag-modal{width:min(520px,100%);background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 18px 50px rgba(15,23,42,.25);padding:16px}.tag-modal h3{margin:0 0 10px;font-size:18px}.tag-modal label{display:block;font-weight:800;margin:12px 0 6px}.tag-modal input{margin:0}.tag-modal-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:14px}.tag-modal-actions button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:8px 10px;font-weight:800;cursor:pointer}.tag-modal-actions button:hover{background:#eef3ff}.tag-modal-actions .danger{background:#fff1f2;border-color:#fecdd3;color:#b42318}.tag-modal-actions .primary{background:#172033;border-color:#172033;color:#fff}
-  @media(max-width:1100px){.tag-layout{grid-template-columns:1fr}.tag-side{position:static}header{align-items:flex-start;flex-direction:column;gap:10px}}
+  @media(max-width:1100px){.tag-layout{grid-template-columns:1fr}.tag-side{position:static}}
+  @media(max-width:900px){body.sidebar-open{overflow:hidden}header{align-items:center;flex-direction:row;gap:10px;padding:10px 12px}h1{font-size:18px}.mobile-menu-button{display:block}.top-tabs{margin-left:auto;gap:4px}.top-tab{padding:7px 9px;font-size:12px}.layout{display:block;min-height:calc(100vh - 52px)}aside{position:fixed;top:0;left:0;z-index:40;width:min(82vw,320px);height:100vh;padding:12px;background:#fff;box-shadow:18px 0 38px rgba(15,23,42,.24);transform:translateX(-105%);transition:transform .18s ease;overflow:auto;border-right:1px solid var(--line)}body.sidebar-open aside{transform:translateX(0)}.sidebar-backdrop{position:fixed;inset:0;z-index:35;background:rgba(15,23,42,.38);display:block;opacity:0;pointer-events:none;transition:opacity .18s ease}body.sidebar-open .sidebar-backdrop{opacity:1;pointer-events:auto}main{padding:12px 10px 28px}.panel{padding:12px;margin-bottom:10px;border-radius:6px}table{min-width:760px}.name-col{width:108px}.no-col{width:42px}th,td{padding:7px 8px}.tag-layout{gap:10px}.tag-card{padding:10px}.tag-card-title{align-items:flex-start}.tag-editor input{min-width:0;width:100%}.tag-toolbar input[type="search"],.tag-toolbar input[type="text"]{min-width:0;width:100%}.tag-result-head{display:block}.tag-result-actions{margin-top:10px}}
 </style>
 </head>
 <body>
-<header><h1>DB검수</h1><nav class="top-tabs" aria-label="화면 전환"><button type="button" class="top-tab active" data-mode="basic">기본 데이터</button><button type="button" class="top-tab" data-mode="tags">태그 추가</button></nav></header>
+<header><button type="button" class="mobile-menu-button" id="mobileMenuButton" aria-label="캐릭터 목록 열기" aria-expanded="false"><span></span><span></span><span></span></button><h1>DB검수</h1><nav class="top-tabs" aria-label="화면 전환"><button type="button" class="top-tab active" data-mode="basic">기본 데이터</button><button type="button" class="top-tab" data-mode="tags">태그 추가</button></nav></header>
+<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <div class="layout">
 <aside>
     <input id="q" placeholder="캐릭터 검색">
@@ -45,6 +48,8 @@ const shell = document.getElementById('content');
 const q = document.getElementById('q');
 const sidebar = document.querySelector('aside');
 const topTabs = [...document.querySelectorAll('.top-tab')];
+const menuButton = document.getElementById('mobileMenuButton');
+const sidebarBackdrop = document.getElementById('sidebarBackdrop');
 const scrollKey = 'resonance.sidebar.scrollTop';
 const queryKey = 'resonance.sidebar.query';
 const modeKey = 'resonance.viewMode';
@@ -56,6 +61,10 @@ let currentHref = '';
 let focusTagTargetId = '';
 let tagDownloadSequence = 0;
 let editingTagId = '';
+function setSidebarOpen(open){
+  document.body.classList.toggle('sidebar-open', Boolean(open));
+  if (menuButton) menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
 function hrefFromHash(){
   const hash = decodeURIComponent(location.hash || '');
   return hash.startsWith('#characters/') ? hash.slice(1) : 'characters/_E9_82_A3_E7_94_B1_E4_BB_96.html';
@@ -697,9 +706,18 @@ list?.addEventListener('click', (event) => {
   if (!a) return;
   event.preventDefault();
   clearTagResult();
+  setSidebarOpen(false);
   render(a.dataset.href);
 });
 document.addEventListener('click', (event) => {
+  if (event.target.closest('#mobileMenuButton')) {
+    setSidebarOpen(!document.body.classList.contains('sidebar-open'));
+    return;
+  }
+  if (event.target.closest('#sidebarBackdrop')) {
+    setSidebarOpen(false);
+    return;
+  }
   const tab = event.target.closest('.top-tab');
   if (tab) {
     mode = tab.dataset.mode || 'basic';
@@ -785,6 +803,10 @@ document.addEventListener('keydown', (event) => {
   }
   if (event.key === 'Escape' && editingTagId) {
     closeTagEditor();
+    return;
+  }
+  if (event.key === 'Escape' && document.body.classList.contains('sidebar-open')) {
+    setSidebarOpen(false);
     return;
   }
   if (event.target?.matches('[data-tag-input]') && event.key === 'Enter') {
