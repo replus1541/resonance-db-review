@@ -18,10 +18,15 @@
   .meta{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:14px;overflow:auto}
   table{width:100%;min-width:980px;border-collapse:collapse;background:#fff;border:1px solid var(--line);table-layout:fixed}.no-col{width:52px}.name-col{width:140px}th,td{border:1px solid var(--line);padding:8px 9px;vertical-align:top;text-align:left}th{background:#f1f4f8;font-weight:700}th:first-child,td:first-child.slot{width:52px;text-align:center}.slot{font-weight:700}.sub{color:var(--muted);font-size:12px;margin-top:3px}.pre{white-space:pre-wrap;line-height:1.45}.empty{color:var(--muted);margin:8px 0}.audit{color:var(--muted);font-size:13px;margin-top:6px}.warn-missing{background:#ffe4ec}.warn-same{background:#fff0f5}
   .grid{display:grid;grid-template-columns:1fr;gap:12px}@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static;height:auto}.slot{width:auto}}
+
+  header{display:flex;align-items:center;gap:18px}.top-tabs{display:flex;gap:6px}.top-tab{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:6px;padding:7px 12px;font-weight:700;cursor:pointer}.top-tab.active{background:#172033;color:#fff;border-color:#172033}
+  .tag-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 14px}.tag-toolbar input[type="search"],.tag-toolbar input[type="text"]{width:auto;min-width:220px;margin:0}.tag-toolbar button,.tag-card button,.tag-actions button,.file-button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:7px 9px;cursor:pointer;color:var(--ink);font-weight:700}.tag-toolbar button:hover,.tag-card button:hover,.tag-actions button:hover,.file-button:hover{background:#eef3ff}.tag-toolbar button.active-filter{background:#172033;color:#fff;border-color:#172033}
+  .tag-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:14px}.tag-list{display:flex;flex-direction:column;gap:10px}.tag-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-card-header{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px}.tag-card-title{display:flex;gap:8px;align-items:center;min-width:0}.tag-type{font-size:12px;color:#fff;background:#334155;border-radius:999px;padding:3px 8px;white-space:nowrap}.tag-name{font-weight:800}.tag-desc{white-space:pre-wrap;line-height:1.45;color:#243044;margin:8px 0}.tag-editor{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.tag-editor input{flex:1;min-width:220px;margin:0}.tag-added-wrap{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}.tag-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;min-height:28px}.tag-badge{display:inline-flex;align-items:center;gap:6px;border:1px solid #bfdbfe;background:#eff6ff;color:#1e3a8a;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:700;cursor:grab;user-select:none}.tag-badge.auto{border-color:#facc15;background:#fef9c3;color:#713f12}.tag-badge:active{cursor:grabbing}.tag-badge.drag-over{outline:2px solid #2563eb;outline-offset:2px}.tag-badge button{border:0;background:transparent;padding:0 1px;color:inherit;font-weight:900;cursor:pointer}.tag-count{display:inline;font-size:12px;font-weight:900;color:#172033;padding:0 0 0 2px;min-width:0;height:auto;border-radius:0;background:transparent}.tag-dict-badge{cursor:pointer}.tag-dict-badge:hover{background:#dbeafe}.tag-dict-badge:focus-visible{outline:2px solid #2563eb;outline-offset:2px}.tag-side{position:sticky;top:72px;align-self:start;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-side h3{margin-top:0}.tag-dict{display:flex;flex-wrap:wrap;gap:6px}.tag-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.tag-muted{color:var(--muted);font-size:12px}.hidden-file{display:none}.auto-box{border:1px solid var(--line);border-radius:8px;background:#f8fafc;padding:10px;margin-bottom:12px}.auto-box h4{margin:0 0 8px;font-size:14px}.auto-candidates{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow:auto;margin-top:8px}.auto-candidate{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px}.auto-candidate-head{display:flex;gap:6px;align-items:center}.auto-candidate-head input[type="text"]{min-width:0;margin:0;padding:6px 7px}.auto-candidate-head input[type="checkbox"]{width:auto;margin:0}.auto-candidate details{margin-top:6px}.auto-candidate summary{cursor:pointer;color:#334155;font-size:12px;font-weight:800}.auto-example{border-top:1px solid #eef2f7;padding-top:5px;margin-top:5px;font-size:12px;line-height:1.35}.tag-result-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.tag-result-actions{display:flex;gap:6px;flex-wrap:wrap}.tag-result-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}.tag-result-title{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.tag-result-title a{font-weight:800;color:#0f3b7a;text-decoration:none}.tag-result-title a:hover{text-decoration:underline}.tag-result-meta{display:flex;gap:6px;flex-wrap:wrap}.tag-result-chip{background:#eef2f7;border-radius:999px;color:#334155;font-size:12px;font-weight:700;padding:3px 8px}.tag-result-empty{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px}.tag-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.35);z-index:30;display:flex;align-items:center;justify-content:center;padding:20px}.tag-modal{width:min(520px,100%);background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 18px 50px rgba(15,23,42,.25);padding:16px}.tag-modal h3{margin:0 0 10px;font-size:18px}.tag-modal label{display:block;font-weight:800;margin:12px 0 6px}.tag-modal input{margin:0}.tag-modal-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:14px}.tag-modal-actions button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:8px 10px;font-weight:800;cursor:pointer}.tag-modal-actions button:hover{background:#eef3ff}.tag-modal-actions .danger{background:#fff1f2;border-color:#fecdd3;color:#b42318}.tag-modal-actions .primary{background:#172033;border-color:#172033;color:#fff}
+  @media(max-width:1100px){.tag-layout{grid-template-columns:1fr}.tag-side{position:static}header{align-items:flex-start;flex-direction:column;gap:10px}}
 </style>
 </head>
 <body>
-<header><h1>DB검수</h1></header>
+<header><h1>DB검수</h1><nav class="top-tabs" aria-label="화면 전환"><button type="button" class="top-tab active" data-mode="basic">기본 데이터</button><button type="button" class="top-tab" data-mode="tags">태그 추가</button></nav></header>
 <div class="layout">
 <aside>
     <input id="q" placeholder="캐릭터 검색">
@@ -39,18 +44,646 @@ const links = [...document.querySelectorAll('aside a[data-href]')];
 const shell = document.getElementById('content');
 const q = document.getElementById('q');
 const sidebar = document.querySelector('aside');
+const topTabs = [...document.querySelectorAll('.top-tab')];
 const scrollKey = 'resonance.sidebar.scrollTop';
 const queryKey = 'resonance.sidebar.query';
+const modeKey = 'resonance.viewMode';
+const tagStoreKey = 'resonance.tagStore.v1';
+const tagResultKey = 'resonance.tagResultTagId';
+const defaultTagStore = {"version":1,"tagDictionary":[{"id":"tag_13to1ph","label":"공격 속도 증가","aliases":[],"category":"","description":""},{"id":"tag_14bvsb","label":"공격력 증가","aliases":[],"category":"","description":""},{"id":"tag_10an6hd","label":"공격력 증가 버프","aliases":[],"category":"","description":""},{"id":"tag_13740wu","label":"관통","aliases":[],"category":"","description":""},{"id":"tag_1hckm2o","label":"광염","aliases":[],"category":"","description":""},{"id":"tag_9a8rmu","label":"기계 유닛","aliases":[],"category":"","description":""},{"id":"tag_9fqnl1","label":"기절","aliases":[],"category":"","description":""},{"id":"tag_1w5i7ak","label":"낙뢰","aliases":[],"category":"","description":""},{"id":"tag_1p3v11j","label":"냉동","aliases":[],"category":"","description":""},{"id":"tag_wqvr8l","label":"데미지 결산","aliases":[],"category":"","description":""},{"id":"tag_wsjy98","label":"동결","aliases":[],"category":"","description":""},{"id":"tag_1afqe6n","label":"동상","aliases":[],"category":"","description":""},{"id":"tag_5lehnz","label":"드로우","aliases":[],"category":"","description":""},{"id":"tag_19vgblu","label":"드로우 : 특정 카드","aliases":[],"category":"","description":""},{"id":"tag_js62n5","label":"드론","aliases":[],"category":"","description":""},{"id":"tag_exr6z7","label":"디버프","aliases":[],"category":"","description":""},{"id":"tag_v6wq4i","label":"디버프 : 단일 대상","aliases":[],"category":"","description":""},{"id":"tag_14m04g1","label":"디버프 해제","aliases":[],"category":"","description":""},{"id":"tag_1rdoe7z","label":"리더 스킬","aliases":[],"category":"","description":""},{"id":"tag_ybkc3q","label":"리더 스킬 활성화","aliases":[],"category":"","description":""},{"id":"tag_9qzixf","label":"모든 아군","aliases":[],"category":"","description":""},{"id":"tag_59hq61","label":"무작위 발동","aliases":[],"category":"","description":""},{"id":"tag_l04mh3","label":"물리 피해","aliases":[],"category":"","description":""},{"id":"tag_83xr1z","label":"받는 피해 증가","aliases":[],"category":"","description":""},{"id":"tag_1tkz941","label":"방어력 감소","aliases":[],"category":"","description":""},{"id":"tag_1l93hvk","label":"방어력 증가","aliases":[],"category":"","description":""},{"id":"tag_8g3wiy","label":"버려질 때 발동","aliases":[],"category":"","description":""},{"id":"tag_1rr96cn","label":"버리기","aliases":[],"category":"","description":""},{"id":"tag_pzgsf6","label":"버리기 : 모든 블랙 카드","aliases":[],"category":"","description":""},{"id":"tag_1j6hxvh","label":"버리기 연관","aliases":[],"category":"","description":""},{"id":"tag_n1lhc5","label":"버리기 쿨타임 감소","aliases":[],"category":"","description":""},{"id":"tag_kb8p9x","label":"버프","aliases":[],"category":"","description":""},{"id":"tag_ounbkl","label":"버프 : 기계유닛 피해증가","aliases":[],"category":"","description":""},{"id":"tag_1f9c8n1","label":"버프 : 폭발물 피해증가","aliases":[],"category":"","description":""},{"id":"tag_1efhufs","label":"버프 : 피해증가","aliases":[],"category":"","description":""},{"id":"tag_zm18qj","label":"범위 지정 후 사용","aliases":[],"category":"","description":""},{"id":"tag_yhfeue","label":"부식","aliases":[],"category":"","description":""},{"id":"tag_m5zibw","label":"붕괴","aliases":[],"category":"","description":""},{"id":"tag_i8v35i","label":"블랙카드","aliases":[],"category":"","description":""},{"id":"tag_uz3ks1","label":"블랙카드 소각","aliases":[],"category":"","description":""},{"id":"tag_1xr75m","label":"블록","aliases":[],"category":"","description":""},{"id":"tag_13yt5kc","label":"비용 생성","aliases":[],"category":"","description":""},{"id":"tag_1xnyod3","label":"冰冻/火焰/电磁 피해","aliases":[],"category":"","description":""},{"id":"tag_1vn8xkr","label":"생성","aliases":[],"category":"","description":""},{"id":"tag_15xkkm0","label":"성흔","aliases":[],"category":"","description":""},{"id":"tag_1m6xrjj","label":"소환물","aliases":[],"category":"","description":""},{"id":"tag_1nqd2k7","label":"속박","aliases":[],"category":"","description":""},{"id":"tag_1pwxv37","label":"손패 상한 증가","aliases":[],"category":"","description":""},{"id":"tag_ihq9rk","label":"손패에 없는 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_aqezpd","label":"손패에 있는 카드 자동 사용","aliases":[],"category":"","description":""},{"id":"tag_1krp239","label":"슈퍼아머","aliases":[],"category":"","description":""},{"id":"tag_s3ffmh","label":"스택형 디버프","aliases":[],"category":"","description":""},{"id":"tag_nxzzlj","label":"스택형 버프","aliases":[],"category":"","description":""},{"id":"tag_1ubq5vw","label":"아군 : 단일 대상","aliases":[],"category":"","description":""},{"id":"tag_b4xy1n","label":"아군 전체","aliases":[],"category":"","description":""},{"id":"tag_12u43j4","label":"아군 회복","aliases":[],"category":"","description":""},{"id":"tag_12kj42v","label":"얼음 피해","aliases":[],"category":"","description":""},{"id":"tag_1hhkjzb","label":"얼음/화염/전자기 피해","aliases":[],"category":"","description":""},{"id":"tag_x9kehl","label":"연소","aliases":[],"category":"","description":""},{"id":"tag_bw4lom","label":"열상","aliases":[],"category":"","description":""},{"id":"tag_1nmibnw","label":"용 피해","aliases":[],"category":"","description":""},{"id":"tag_10mhsh1","label":"우레","aliases":[],"category":"","description":""},{"id":"tag_yixtwb","label":"원소핵 불 소각","aliases":[],"category":"","description":""},{"id":"tag_kv1ygd","label":"은신","aliases":[],"category":"","description":""},{"id":"tag_13k37wz","label":"음 에너지","aliases":[],"category":"","description":""},{"id":"tag_1nw0a5p","label":"음 에너지 제거","aliases":[],"category":"","description":""},{"id":"tag_hvoerf","label":"음에너지 피해","aliases":[],"category":"","description":""},{"id":"tag_1t4fc7p","label":"인뢰","aliases":[],"category":"","description":""},{"id":"tag_1od4z4q","label":"인뢰 발동 확률 증가","aliases":[],"category":"","description":""},{"id":"tag_182vves","label":"일반 공격 피해 증가","aliases":[],"category":"","description":""},{"id":"tag_1qmrs9j","label":"일반공격","aliases":[],"category":"","description":""},{"id":"tag_4x3o4j","label":"일회성 사용","aliases":[],"category":"","description":""},{"id":"tag_6a2o30","label":"자가 회복","aliases":[],"category":"","description":""},{"id":"tag_16p7j7e","label":"자동시전","aliases":[],"category":"","description":""},{"id":"tag_1doqgpb","label":"자버프","aliases":[],"category":"","description":""},{"id":"tag_1j0b7cl","label":"자버프 : 공격력 증가","aliases":[],"category":"","description":""},{"id":"tag_rpxgrp","label":"자버프 : 아군 평균 공격력","aliases":[],"category":"","description":""},{"id":"tag_1e1nde0","label":"자버프 : 아군 평균 방어력","aliases":[],"category":"","description":""},{"id":"tag_dqwue0","label":"작열","aliases":[],"category":"","description":""},{"id":"tag_1imdvzy","label":"잔향 피해","aliases":[],"category":"","description":""},{"id":"tag_a2agk9","label":"저주","aliases":[],"category":"","description":""},{"id":"tag_1hzdmon","label":"적 공격 : 단일 대상","aliases":[],"category":"","description":""},{"id":"tag_1b96njf","label":"적 공격 : 모든 대상","aliases":[],"category":"","description":""},{"id":"tag_1xr2380","label":"적 공격 : 무작위 대상","aliases":[],"category":"","description":""},{"id":"tag_1ifycmc","label":"적 공격 : 범위 내","aliases":[],"category":"","description":""},{"id":"tag_1tvymj","label":"적 공격 : 전체 대상","aliases":[],"category":"","description":""},{"id":"tag_mvqfix","label":"전자기 피해","aliases":[],"category":"","description":""},{"id":"tag_12wrg5d","label":"점화","aliases":[],"category":"","description":""},{"id":"tag_t0yekf","label":"정신 피해","aliases":[],"category":"","description":""},{"id":"tag_1nryeyb","label":"精神 피해","aliases":[],"category":"","description":""},{"id":"tag_whdht3","label":"조건부 공격","aliases":[],"category":"","description":""},{"id":"tag_1xdso4f","label":"조건부 공격 : 블랙카드 소각","aliases":[],"category":"","description":""},{"id":"tag_fic5na","label":"조건부 공격 : 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_o3xnff","label":"조건부 드로우","aliases":[],"category":"","description":""},{"id":"tag_1ecu6rt","label":"조건부 버프","aliases":[],"category":"","description":""},{"id":"tag_16i2jgp","label":"조건부 비용 회복","aliases":[],"category":"","description":""},{"id":"tag_107mbu3","label":"조건부 자버프","aliases":[],"category":"","description":""},{"id":"tag_ft2lfl","label":"조건부 카드 생성","aliases":[],"category":"","description":""},{"id":"tag_xc7s9m","label":"조건부 트리거 : 광염","aliases":[],"category":"","description":""},{"id":"tag_t7qe65","label":"조건부 트리거 : 광폭","aliases":[],"category":"","description":""},{"id":"tag_pbllk8","label":"조건부 트리거 : 광폭 사용","aliases":[],"category":"","description":""},{"id":"tag_1j601h3","label":"조건부 트리거 : 그린카드 드로우","aliases":[],"category":"","description":""},{"id":"tag_1qq4sim","label":"조건부 트리거 : 그린카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1r99z","label":"조건부 트리거 : 기계 유닛 사용","aliases":[],"category":"","description":""},{"id":"tag_1q0zqnl","label":"조건부 트리거 : 기이한 불꽃 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_9zjd3c","label":"조건부 트리거 : 기이한 불꽃을 생성","aliases":[],"category":"","description":""},{"id":"tag_it5sim","label":"조건부 트리거 : 낙뢰","aliases":[],"category":"","description":""},{"id":"tag_17b08c9","label":"조건부 트리거 : 낙뢰 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_180xtl5","label":"조건부 트리거 : 냉동","aliases":[],"category":"","description":""},{"id":"tag_zjrasu","label":"조건부 트리거 : 냉동 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1tlc8wg","label":"조건부 트리거 : 다른 블루카드 사용","aliases":[],"category":"","description":""},{"id":"tag_g294tw","label":"조건부 트리거 : 다크 아트 사용","aliases":[],"category":"","description":""},{"id":"tag_1r0c94j","label":"조건부 트리거 : 다크 아트를 생성","aliases":[],"category":"","description":""},{"id":"tag_eqllv3","label":"조건부 트리거 : 다크아트 생성","aliases":[],"category":"","description":""},{"id":"tag_1pzyitf","label":"조건부 트리거 : 대상이 피해를 받음","aliases":[],"category":"","description":""},{"id":"tag_8extj5","label":"조건부 트리거 : 덱 셔플 발동","aliases":[],"category":"","description":""},{"id":"tag_11azsew","label":"조건부 트리거 : 덱에 있는 카드가 1장 감소","aliases":[],"category":"","description":""},{"id":"tag_1khehum","label":"조건부 트리거 : 동결","aliases":[],"category":"","description":""},{"id":"tag_yijz41","label":"조건부 트리거 : 동상","aliases":[],"category":"","description":""},{"id":"tag_2i1tsh","label":"조건부 트리거 : 드론 시전","aliases":[],"category":"","description":""},{"id":"tag_kdym4q","label":"조건부 트리거 : 드론 유효시간 종료","aliases":[],"category":"","description":""},{"id":"tag_1ngeq2g","label":"조건부 트리거 : 드론 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1ptfe5f","label":"조건부 트리거 : 레드카드 드로우","aliases":[],"category":"","description":""},{"id":"tag_19ivq3f","label":"조건부 트리거 : 레드카드 버리기","aliases":[],"category":"","description":""},{"id":"tag_g9yy0q","label":"조건부 트리거 : 레드카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1amttol","label":"조건부 트리거 : 리더가 명중","aliases":[],"category":"","description":""},{"id":"tag_1elpe0l","label":"조건부 트리거 : 명중","aliases":[],"category":"","description":""},{"id":"tag_11l4z33","label":"조건부 트리거 : 변신","aliases":[],"category":"","description":""},{"id":"tag_fgr3uz","label":"조건부 트리거 : 본인이 은신","aliases":[],"category":"","description":""},{"id":"tag_1gwxwyw","label":"조건부 트리거 : 부식","aliases":[],"category":"","description":""},{"id":"tag_lhbhj1","label":"조건부 트리거 : 불바다","aliases":[],"category":"","description":""},{"id":"tag_1o8wu92","label":"조건부 트리거 : 붕괴","aliases":[],"category":"","description":""},{"id":"tag_1uvyz8u","label":"조건부 트리거 : 붕렬","aliases":[],"category":"","description":""},{"id":"tag_jm0i1e","label":"조건부 트리거 : 블랙카드 생성","aliases":[],"category":"","description":""},{"id":"tag_1vtg0tr","label":"조건부 트리거 : 블랙카드 소각","aliases":[],"category":"","description":""},{"id":"tag_1u644ir","label":"조건부 트리거 : 블루카드 드로우","aliases":[],"category":"","description":""},{"id":"tag_7f7tx6","label":"조건부 트리거 : 블루카드 사용","aliases":[],"category":"","description":""},{"id":"tag_vrj6xd","label":"조건부 트리거 : 속박","aliases":[],"category":"","description":""},{"id":"tag_1m18o4b","label":"조건부 트리거 : 수면","aliases":[],"category":"","description":""},{"id":"tag_1tf58li","label":"조건부 트리거 : 신성 카드 생성","aliases":[],"category":"","description":""},{"id":"tag_1763oo3","label":"조건부 트리거 : 신성 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_a6m8pf","label":"조건부 트리거 : 실드 생성","aliases":[],"category":"","description":""},{"id":"tag_62ninf","label":"조건부 트리거 : 옐로카드 드로우","aliases":[],"category":"","description":""},{"id":"tag_l8jnua","label":"조건부 트리거 : 옐로카드 사용","aliases":[],"category":"","description":""},{"id":"tag_19vs4nw","label":"조건부 트리거 : 우레 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_p2ixco","label":"조건부 트리거 : 원소 신성 카드 생성","aliases":[],"category":"","description":""},{"id":"tag_1y7akxb","label":"조건부 트리거 : 원소신성 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_yypvzv","label":"조건부 트리거 : 웨이브 전환","aliases":[],"category":"","description":""},{"id":"tag_1o2mhp8","label":"조건부 트리거 : 인뢰 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_59stzn","label":"조건부 트리거 : 자신의 스킬 카드를 획득","aliases":[],"category":"","description":""},{"id":"tag_kedrj2","label":"조건부 트리거 : 자신의 스킬카드 사용","aliases":[],"category":"","description":""},{"id":"tag_lvzfeq","label":"조건부 트리거 : 작열","aliases":[],"category":"","description":""},{"id":"tag_oaw15n","label":"조건부 트리거 : 저주","aliases":[],"category":"","description":""},{"id":"tag_55ovvu","label":"조건부 트리거 : 전투 시작 시","aliases":[],"category":"","description":""},{"id":"tag_1cjpb6b","label":"조건부 트리거 : 점화","aliases":[],"category":"","description":""},{"id":"tag_qywrwy","label":"조건부 트리거 : 족쇄","aliases":[],"category":"","description":""},{"id":"tag_fo7dmn","label":"조건부 트리거 : 중첩수 도달시","aliases":[],"category":"","description":""},{"id":"tag_t0gdkr","label":"조건부 트리거 : 참열","aliases":[],"category":"","description":""},{"id":"tag_1ibftnz","label":"조건부 트리거 : 천둥 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_nu886x","label":"조건부 트리거 : 초신성 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_ltdd5j","label":"조건부 트리거 : 카드 드로우","aliases":[],"category":"","description":""},{"id":"tag_13f1w1r","label":"조건부 트리거 : 카드 버리기","aliases":[],"category":"","description":""},{"id":"tag_1bddum6","label":"조건부 트리거 : 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1ak5lmu","label":"조건부 트리거 : 카드 사용시","aliases":[],"category":"","description":""},{"id":"tag_1cilc9v","label":"조건부 트리거 : 카드 생성","aliases":[],"category":"","description":""},{"id":"tag_phlf1","label":"조건부 트리거 : 카드 생성시","aliases":[],"category":"","description":""},{"id":"tag_zj2gyu","label":"조건부 트리거 : 카드 소각","aliases":[],"category":"","description":""},{"id":"tag_rzuxtt","label":"조건부 트리거 : 카드 회수","aliases":[],"category":"","description":""},{"id":"tag_nwa2pu","label":"조건부 트리거 : 카드 획득 (드로우, 생성)","aliases":[],"category":"","description":""},{"id":"tag_1p00nf5","label":"조건부 트리거 : 특정 카드 드로우시","aliases":[],"category":"","description":""},{"id":"tag_1ux2a2u","label":"조건부 트리거 : 특정 카드 사용시","aliases":[],"category":"","description":""},{"id":"tag_p7ugoq","label":"조건부 트리거 : 특정 효과 발동시","aliases":[],"category":"","description":""},{"id":"tag_5azlbk","label":"조건부 트리거 : 특정 효과가 지속될때","aliases":[],"category":"","description":""},{"id":"tag_c7i44u","label":"조건부 트리거 : 퍼플카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1ez1ec1","label":"조건부 트리거 : 폭발물 카드 획득 (드로우, 생성)","aliases":[],"category":"","description":""},{"id":"tag_1v3iwg9","label":"조건부 트리거 : 폭발물 키워드 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1yl57kj","label":"조건부 트리거 : 혼란","aliases":[],"category":"","description":""},{"id":"tag_l745i0","label":"조건부 트리거 : 화상","aliases":[],"category":"","description":""},{"id":"tag_18ats66","label":"조건부 피해 증가","aliases":[],"category":"","description":""},{"id":"tag_a58toc","label":"조건부 피해증가","aliases":[],"category":"","description":""},{"id":"tag_15g9rvi","label":"조건부 회복","aliases":[],"category":"","description":""},{"id":"tag_5gr70o","label":"족쇄","aliases":[],"category":"","description":""},{"id":"tag_42ib1r","label":"즉시 사용","aliases":[],"category":"","description":""},{"id":"tag_3mfu1b","label":"지속시간 증가","aliases":[],"category":"","description":""},{"id":"tag_58gamh","label":"참열","aliases":[],"category":"","description":""},{"id":"tag_1cvdx0a","label":"천둥","aliases":[],"category":"","description":""},{"id":"tag_1e33r2i","label":"천상의 불","aliases":[],"category":"","description":""},{"id":"tag_1s0k4d4","label":"최대 체력 버프","aliases":[],"category":"","description":""},{"id":"tag_1nzw1jy","label":"최종 피해 감소","aliases":[],"category":"","description":""},{"id":"tag_13647on","label":"최종 피해 증가","aliases":[],"category":"","description":""},{"id":"tag_1qv22k9","label":"추가 공격","aliases":[],"category":"","description":""},{"id":"tag_ccpcq9","label":"추가 드로우","aliases":[],"category":"","description":""},{"id":"tag_6fdsar","label":"추가 피해","aliases":[],"category":"","description":""},{"id":"tag_1n90sjb","label":"카드 변환","aliases":[],"category":"","description":""},{"id":"tag_yzvptz","label":"카드 비용 변경","aliases":[],"category":"","description":""},{"id":"tag_v7zeil","label":"카드 생성","aliases":[],"category":"","description":""},{"id":"tag_ydjkhi","label":"카드가 버려질 때 사용으로 간주","aliases":[],"category":"","description":""},{"id":"tag_esk1jf","label":"쿨타임 감소 조건 : 공생 대상의 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1qgdksb","label":"쿨타임 감소 조건 : 기계 유닛 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_lzj94x","label":"쿨타임 감소 조건 : 버리기","aliases":[],"category":"","description":""},{"id":"tag_13lu9rm","label":"쿨타임 감소 조건 : 자신의 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_1ok8lgv","label":"쿨타임 감소 조건 : 카드 생성","aliases":[],"category":"","description":""},{"id":"tag_6o7ug4","label":"쿨타임 감소 조건 : 카드사용","aliases":[],"category":"","description":""},{"id":"tag_ozj35p","label":"쿨타임 감소 조건 : 카드획득","aliases":[],"category":"","description":""},{"id":"tag_dr6qe1","label":"쿨타임 감소 조건 : 폭발물 카드 사용","aliases":[],"category":"","description":""},{"id":"tag_2dj23v","label":"파","aliases":[],"category":"","description":""},{"id":"tag_7mhh0w","label":"폭발물","aliases":[],"category":"","description":""},{"id":"tag_1gyqcl1","label":"폭발물 피해 증가","aliases":[],"category":"","description":""},{"id":"tag_1akaqcy","label":"폭음 피해","aliases":[],"category":"","description":""},{"id":"tag_1glw6xx","label":"爆音 피해","aliases":[],"category":"","description":""},{"id":"tag_g6rju2","label":"피해 증가","aliases":[],"category":"","description":""},{"id":"tag_zfsgtd","label":"피해감소","aliases":[],"category":"","description":""},{"id":"tag_126jmri","label":"허광 피해","aliases":[],"category":"","description":""},{"id":"tag_1ppvq0v","label":"화염 피해","aliases":[],"category":"","description":""},{"id":"tag_19wwsqi","label":"火焰/冰冻 피해","aliases":[],"category":"","description":""},{"id":"tag_7rdv22","label":"화염/얼음 피해","aliases":[],"category":"","description":""},{"id":"tag_1dravql","label":"화염/전자기/얼음/잔향 피해","aliases":[],"category":"","description":""},{"id":"tag_1d177io","label":"火焰/电磁/冰冻/混响 피해","aliases":[],"category":"","description":""},{"id":"tag_1yz6lf3","label":"확률 기반 발동","aliases":[],"category":"","description":""},{"id":"tag_4c4ke2","label":"회복","aliases":[],"category":"","description":""},{"id":"tag_sdo8jg","label":"효과 저항","aliases":[],"category":"","description":""},{"id":"tag_1yn7g7o","label":"虚光 피해","aliases":[],"category":"","description":""},{"id":"tag_1nu2p30","label":"龙 피해","aliases":[],"category":"","description":""}],"assignments":{"那由他::active::A::消失":["tag_1ubq5vw","tag_kb8p9x","tag_14bvsb","tag_kv1ygd"],"那由他::active::B::洗牌":["tag_42ib1r","tag_1rr96cn","tag_5lehnz","tag_8g3wiy"],"那由他::active::S-0::谜":["tag_42ib1r","tag_19vgblu","tag_5lehnz","tag_v7zeil"],"那由他::active::S-1::破构之雷":["tag_42ib1r","tag_5lehnz","tag_1cvdx0a","tag_4x3o4j"],"那由他::active::S-2::再构之力":["tag_42ib1r","tag_b4xy1n","tag_zfsgtd","tag_4x3o4j"],"那由他::active::S-3::立构之炎":["tag_zm18qj","tag_5gr70o","tag_1nqd2k7","tag_12wrg5d","tag_4x3o4j","tag_1ppvq0v"],"那由他::active::S-4::净化之光":["tag_1ubq5vw","tag_14m04g1","tag_1nw0a5p","tag_4x3o4j"],"那由他::breakthrough::1::强手":["tag_5lehnz"],"那由他::breakthrough::2::“阿赖耶”":["tag_4c4ke2"],"那由他::breakthrough::4::“恒河沙”":["tag_1doqgpb","tag_14bvsb"],"那由他::breakthrough::5::“无量”":["tag_b4xy1n","tag_kv1ygd","tag_14bvsb","tag_8extj5"],"妮蔻拉::active::A::电掣":["tag_1hzdmon","tag_13740wu","tag_1t4fc7p","tag_182vves","tag_1doqgpb","tag_nxzzlj"],"妮蔻拉::active::B::雷厉":["tag_js62n5","tag_mvqfix"],"妮蔻拉::active::S::火力全开":["tag_1rdoe7z","tag_ihq9rk","tag_1b96njf","tag_1t4fc7p","tag_1qmrs9j","tag_mvqfix","tag_ozj35p","tag_13to1ph","tag_1doqgpb","tag_nwa2pu"],"妮蔻拉::passive::1::疾风":["tag_nxzzlj","tag_1qmrs9j","tag_13to1ph"],"妮蔻拉::passive::4::迅雷":["tag_1doqgpb","tag_13to1ph"],"妮蔻拉::passive::5::蓄电":["tag_1doqgpb","tag_1t4fc7p"],"妮蔻拉::breakthrough::1::超导":["tag_1t4fc7p","tag_1doqgpb","tag_10an6hd","tag_1od4z4q","tag_nxzzlj"],"妮蔻拉::breakthrough::4::过载":["tag_1t4fc7p","tag_1qmrs9j","tag_10mhsh1","tag_1doqgpb","tag_10an6hd"],"妮蔻拉::breakthrough::5::独狼":["tag_1ecu6rt","tag_13647on","tag_ybkc3q"],"达斯廷::active::A::“惊蛰”":["tag_1hzdmon","tag_9fqnl1","tag_7mhh0w","tag_mvqfix"],"达斯廷::active::B::“谷雨”":["tag_5lehnz","tag_yzvptz","tag_ft2lfl","tag_1e33r2i"],"达斯廷::active::S::流火":["tag_1xr2380","tag_1tvymj","tag_uz3ks1","tag_yixtwb","tag_dqwue0","tag_7mhh0w","tag_1ppvq0v"],"达斯廷::passive::1::震雷":["tag_1doqgpb","tag_nxzzlj","tag_10mhsh1","tag_dqwue0"],"达斯廷::passive::2::“清明”":["tag_15g9rvi","tag_12u43j4"],"达斯廷::passive::4::清净":["tag_16i2jgp","tag_sdo8jg"],"达斯廷::passive::5::焚心":["tag_107mbu3"],"达斯廷::breakthrough::1::洞如观火":["tag_x9kehl","tag_13647on","tag_exr6z7"],"达斯廷::breakthrough::2::法执":["tag_107mbu3"],"达斯廷::breakthrough::4::“芒种”":["tag_107mbu3","tag_nxzzlj"],"达斯廷::breakthrough::5::流转":["tag_15g9rvi","tag_12u43j4","tag_1vtg0tr"],"朵拉弥丝::active::A::共生":["tag_1ubq5vw","tag_4x3o4j","tag_1s0k4d4","tag_1qv22k9"],"朵拉弥丝::active::B::偕行":["tag_5lehnz","tag_ihq9rk"],"朵拉弥丝::active::C::茸茸":["tag_4c4ke2","tag_hvoerf","tag_4x3o4j"],"朵拉弥丝::active::S-0::绞缠":["tag_exr6z7","tag_1rdoe7z","tag_6o7ug4","tag_13lu9rm","tag_esk1jf","tag_12kj42v","tag_1p3v11j","tag_bw4lom","tag_1n90sjb","tag_1bddum6"],"朵拉弥丝::active::S-1::寒芒":["tag_1afqe6n","tag_1n90sjb","tag_1b96njf","tag_12kj42v"],"多萝西::active::A::莱格爆爆":["tag_l04mh3","tag_7mhh0w"],"多萝西::active::B::Bingo!":["tag_l04mh3","tag_7mhh0w"],"多萝西::active::S::大暴走":["tag_1rdoe7z","tag_l04mh3","tag_5lehnz","tag_lzj94x","tag_dr6qe1","tag_1v3iwg9"],"拉妲::active::A::压制哨戒炮":["tag_l04mh3","tag_1m6xrjj","tag_9a8rmu"],"拉妲::active::S::雷霆闪击":["tag_l04mh3","tag_1rdoe7z","tag_1tkz941","tag_exr6z7","tag_9a8rmu","tag_7mhh0w","tag_1qgdksb","tag_dr6qe1","tag_1m6xrjj","tag_1r99z","tag_1v3iwg9"],"罗洁尔::active::B::序言":["tag_1imdvzy","tag_1m6xrjj","tag_phlf1","tag_1b96njf","tag_yhfeue","tag_1ak5lmu","tag_13k37wz","tag_v7zeil","tag_1cilc9v"],"罗洁尔::active::C::圣痕":["tag_1imdvzy","tag_v6wq4i","tag_83xr1z","tag_s3ffmh","tag_2dj23v","tag_4x3o4j","tag_fo7dmn","tag_wqvr8l","tag_1pzyitf"],"罗洁尔::active::S::审判":["tag_hvoerf","tag_5lehnz","tag_1b96njf","tag_yhfeue","tag_a58toc","tag_1ak5lmu","tag_pzgsf6","tag_1rdoe7z","tag_1ok8lgv","tag_1cilc9v"],"罗洁尔·定格::active::A::昴宿七":["tag_l04mh3","tag_mvqfix"],"罗洁尔·定格::active::S::潮汐秘境":["tag_l04mh3","tag_mvqfix","tag_hvoerf"],"莱卡吉亚::active::A::黏胶炸弹":["tag_l04mh3"],"莱卡吉亚::active::S::机械狼群":["tag_l04mh3","tag_19ivq3f","tag_g9yy0q","tag_7f7tx6","tag_1ez1ec1"],"涟::active::A::崩裂":["tag_12kj42v"],"涟::active::B::黑羽":["tag_12kj42v"],"瑞瓦::active::A::深渊的问候":["tag_1imdvzy","tag_12kj42v","tag_1ppvq0v"],"瑞瓦::active::C::渊底的和声":["tag_12kj42v","tag_1ppvq0v"],"瑞瓦::active::S-0::造访者的礼物":["tag_1imdvzy","tag_12kj42v","tag_1ppvq0v"],"丽桑德拉::active::A-1::无尽":["tag_l04mh3"],"丽桑德拉::active::A-2::无厌":["tag_l04mh3"],"丽桑德拉::active::S::星落":["tag_l04mh3","tag_g9yy0q","tag_c7i44u"],"真咲::active::B::战车":["tag_1ppvq0v","tag_ltdd5j"],"真咲::active::S::恶魔":["tag_1imdvzy","tag_59stzn"],"马吉拉::active::A::汲取":["tag_1imdvzy"],"马吉拉::active::S::无底之核":["tag_1imdvzy"],"马吉拉·星仪::active::A-2::月亮":["tag_12kj42v"],"马吉拉·星仪::active::A-3::太阳":["tag_1ppvq0v"],"马吉拉·星仪::active::S::命运之轮":["tag_1hhkjzb","tag_1xnyod3","tag_9zjd3c","tag_1tf58li","tag_p2ixco","tag_59stzn"],"无名::active::A::蝶舞":["tag_l04mh3"],"无名::active::B::鬼舞":["tag_l04mh3"],"无名::active::S::浮光连舞":["tag_l04mh3","tag_1qq4sim","tag_g9yy0q","tag_c7i44u"],"闻笙::active::A-1::破":["tag_12kj42v"],"闻笙::active::B::急":["tag_12kj42v"],"闻笙::active::S::终":["tag_12kj42v"],"薇尔岚::active::A::星弧":["tag_1imdvzy"],"薇尔岚::active::S::食梦":["tag_1imdvzy","tag_zjrasu"],"沃斯托克::active::S::宅急送5号":["tag_1ppvq0v"],"夏尔::active::C::横冲直撞":["tag_l04mh3"],"夏洛蒂::active::A::灾月":["tag_l04mh3"],"夏洛蒂::active::S::狱月":["tag_l04mh3"],"索玛::active::A::血牙":["tag_l04mh3"],"索玛::active::B::血吼":["tag_1imdvzy"],"索玛::active::S-1::血之冠":["tag_1imdvzy"],"斯洛卡伊::active::A-0::碎岩者":["tag_l04mh3"],"斯洛卡伊::active::B::威压":["tag_l04mh3"],"星花::active::A-1::TATAKAU!":["tag_l04mh3"],"星花::active::A-2::TATAKAU!!":["tag_l04mh3"],"星花::active::A-3::TATAKAU!!!":["tag_l04mh3"],"亚莉奈::active::B::“黑莓”":["tag_1imdvzy"],"亚莉奈::active::S::“苹果”":["tag_1imdvzy","tag_pbllk8"],"雅莱::active::C-1::情绪-冷静":["tag_1imdvzy"],"雅莱::active::C-3::情绪-愤怒":["tag_1imdvzy"],"安菲娅::active::S::深藏若虚之棺":["tag_1imdvzy","tag_59stzn"],"伊利亚德::active::A::去其陈腐":["tag_12kj42v"],"伊利亚德::active::C::海潮生":["tag_12kj42v"],"奥莉薇恩::active::B::拭尘契约":["tag_12kj42v"],"奥莉薇恩::active::S::鎏晶茶仪":["tag_7rdv22","tag_19wwsqi"],"乌刹娜::active::A::斩！":["tag_1imdvzy"],"乌刹娜::active::S::斩夜寰穹破魔光！":["tag_1imdvzy"],"伊洛娜::active::S::狙杀模式":["tag_l04mh3","tag_g9yy0q"],"伊卡菈::active::A::龙华·葬火":["tag_1ppvq0v"],"伊卡菈::active::S-0::真龙·劫炎咏叹":["tag_1ppvq0v","tag_1nmibnw","tag_1nu2p30"],"伊卡菈::active::S-1::真龙·烬灭敕令":["tag_1ppvq0v","tag_1nmibnw","tag_1nu2p30"],"生驹::active::C::黑色药剂":["tag_1imdvzy"],"生驹::active::S::爆裂射击":["tag_l04mh3","tag_1qq4sim","tag_g9yy0q","tag_c7i44u"],"约书亚::active::A::蒙昧":["tag_1imdvzy"],"约书亚::active::S-0::预示":["tag_1imdvzy"],"卡塔斯::active::A::炎跃斩":["tag_1ppvq0v"],"卡塔斯::active::S-0::链之间·壹":["tag_1ppvq0v","tag_xc7s9m","tag_lhbhj1","tag_lvzfeq","tag_1cjpb6b"],"卡塔斯::active::S-1::链之间·贰":["tag_1ppvq0v","tag_xc7s9m","tag_lhbhj1","tag_lvzfeq","tag_1cjpb6b"],"卡塔斯::active::S-2::链之间·叁":["tag_1ppvq0v","tag_xc7s9m","tag_lhbhj1","tag_lvzfeq","tag_1cjpb6b"],"卡塔斯::active::S-3::暗耀斩钢":["tag_1ppvq0v"],"卡洛琳::active::B::磁暴弹":["tag_mvqfix"],"柯娜::active::A-0::战列维持":["tag_l04mh3"],"柯娜::active::B-2::大地崩震":["tag_1imdvzy"],"柯娜::active::S-2::新星冲击":["tag_1imdvzy","tag_g9yy0q","tag_a6m8pf"],"苔妮::active::B::急冻磁星":["tag_12kj42v"],"苔妮::active::S::刨冰大雪崩":["tag_mvqfix","tag_12kj42v"],"迪妮莎::active::S::S·E·E·D·S":["tag_126jmri","tag_1yn7g7o","tag_ltdd5j"],"蒂丝塔尔::active::A::流羽明光":["tag_126jmri","tag_1yn7g7o"],"帕拉笛::active::S::高压镇暴":["tag_l04mh3","tag_mvqfix","tag_xc7s9m","tag_g9yy0q","tag_7f7tx6","tag_l8jnua"],"佩罗塔::active::S-1::十万伏特":["tag_mvqfix"],"佩罗塔::active::S-2::百万伏特":["tag_mvqfix"],"隼::active::A::无常":["tag_l04mh3"],"隼::active::S::无相·转轮":["tag_1ppvq0v"],"赫卡蒂::active::S::雨之海":["tag_1dravql","tag_1d177io","tag_1bddum6"],"海伦娜::active::S::棱彩万华":["tag_1imdvzy"],"蓝鹊儿::active::A-0::定缘":["tag_t0yekf","tag_1nryeyb"],"蓝鹊儿::active::A-1::诛心":["tag_t0yekf","tag_1nryeyb"],"蓝鹊儿::active::A-2::裁命":["tag_t0yekf","tag_1nryeyb"],"蓝鹊儿::active::S::飞羽·惊鸿":["tag_126jmri","tag_t0yekf","tag_1yn7g7o","tag_1nryeyb"],"露比::active::C::锐锋":["tag_l04mh3"],"夏娜::active::A-0::飞焰":["tag_1ppvq0v"],"夏娜::active::C::天破壤碎":["tag_1ppvq0v"],"夏洛蒂·澄心::active::A::孤月":["tag_126jmri","tag_1yn7g7o"],"夏洛蒂·澄心::active::C::无毁之一击":["tag_126jmri","tag_1yn7g7o"],"夏洛蒂·澄心::active::S::湖中月":["tag_126jmri","tag_1yn7g7o"],"卡塔斯·业火::active::A::震音连击":["tag_1akaqcy","tag_1glw6xx"],"卡塔斯·业火::active::S-0::无想琶音·圣羽燎奏":["tag_1akaqcy","tag_1glw6xx"],"卡塔斯·业火::active::S-1::无想琶音·煌翼天鸣":["tag_1akaqcy","tag_1glw6xx"],"甘雅::active::S::回旋飞斧":["tag_l04mh3","tag_13f1w1r"],"奈弥::active::S::无相·鸾回麟返":["tag_l04mh3","tag_1yl57kj","tag_l745i0"],"黛丝莉::active::A::磁弦脉冲":["tag_mvqfix"],"黛丝莉::active::B::“呆力”":["tag_mvqfix"],"黛丝莉::active::S::共振脉冲":["tag_mvqfix"],"冯里奈::active::B::反振":["tag_1imdvzy"],"莉薇娅::active::A::冲击剑":["tag_l04mh3"],"莉薇娅::active::B-0::灵鸟夜曲·红":["tag_l04mh3"],"莉薇娅::active::S-0::终幕的圆舞曲·红":["tag_l04mh3"],"莉薇娅::active::S-4::终幕的圆舞曲·紫":["tag_1imdvzy"],"霖::active::A::雷走":["tag_mvqfix"],"魇::active::S::秘剑·岩铁两断":["tag_l04mh3","tag_fgr3uz"],"瓦伦汀::active::A::星火":["tag_1ppvq0v"],"瓦伦汀::active::S::烛天":["tag_1ppvq0v"],"塞西尔::active::B::攻心针":["tag_l04mh3"],"塞西尔::active::S::迷心弹":["tag_l04mh3","tag_l745i0"],"苍叶::active::S::奥义·流风":["tag_l04mh3"],"阿知波::active::A::棒喝":["tag_1ppvq0v"],"阿知波::active::S::无明":["tag_1ppvq0v","tag_kedrj2"],"晃::active::B::人气大回转":["tag_12kj42v"],"叶珏::active::A::滚雷":["tag_mvqfix"],"叶珏::active::B::闪冕":["tag_mvqfix"],"叶珏::active::S::电光石火":["tag_l04mh3"],"宵月::active::A-0::时雨":["tag_1ppvq0v"],"伊尔::active::A::出击":["tag_l04mh3"],"伊尔::active::S::再动":["tag_l04mh3"],"菲妮娅::active::A::奔雷":["tag_mvqfix"],"海因里希::active::S::集束炸弹":["tag_l04mh3"],"伽罗尔::active::A-0::花与字":["tag_1imdvzy"],"伽罗尔::active::A-2::气球秀":["tag_mvqfix"],"伽罗尔::active::S::压轴好戏":["tag_mvqfix"],"跳鼠::active::A::破岚":["tag_l04mh3"],"跳鼠::active::S::秘剑·鼠返":["tag_l04mh3"],"雷火::active::A::爆破作业":["tag_l04mh3"],"金子小姐::active::S::金子攻势":["tag_mvqfix","tag_17b08c9","tag_19vs4nw","tag_1o2mhp8","tag_1ibftnz"],"参宿一::active::A::点火":["tag_1ppvq0v"],"参宿一::active::B::煽风":["tag_1ppvq0v"],"艾略特::active::B::爆炎弹":["tag_l04mh3"],"艾略特::active::S::飞电弹":["tag_mvqfix"],"朱利安::active::A-0::一触即发":["tag_l04mh3"],"朱利安::active::S::火力掩护":["tag_l04mh3"],"塔拉::active::A::旋羽":["tag_l04mh3"],"弗兰::active::S::绝对胜利":["tag_l04mh3"],"遥::active::A::《真棒》":["tag_l04mh3"],"波克士::active::A-1::手枪":["tag_l04mh3"],"朵拉弥丝::passive::1::同调":["tag_16i2jgp","tag_ybkc3q"],"朵拉弥丝::passive::2::生存本能":["tag_15g9rvi","tag_4c4ke2"],"朵拉弥丝::passive::5::共舞":["tag_6fdsar"],"朵拉弥丝::breakthrough::1::丛生":["tag_1doqgpb","tag_10an6hd"],"朵拉弥丝::breakthrough::2::簇生":["tag_1vn8xkr","tag_4x3o4j"],"朵拉弥丝::breakthrough::4::森茂":["tag_v7zeil"],"朵拉弥丝::breakthrough::5::双栖":["tag_13647on","tag_1doqgpb","tag_1ubq5vw","tag_kb8p9x"],"多萝西::passive::1::见面礼！":["tag_16p7j7e","tag_yypvzv"],"多萝西::passive::2::惊喜！":["tag_16i2jgp","tag_yzvptz","tag_o3xnff"],"多萝西::passive::4::宝宝爆爆":["tag_1rr96cn","tag_n1lhc5","tag_ydjkhi"],"多萝西::passive::5::再见拥抱！":["tag_whdht3","tag_1j6hxvh","tag_13f1w1r"],"多萝西::breakthrough::1::爆炸客":["tag_7mhh0w","tag_1doqgpb","tag_nxzzlj"],"多萝西::breakthrough::2::多重装药":["tag_1w5i7ak","tag_12wrg5d","tag_1p3v11j","tag_59hq61"],"多萝西::breakthrough::4::链爆反应":["tag_g6rju2","tag_1yz6lf3","tag_10mhsh1","tag_dqwue0","tag_wsjy98","tag_nxzzlj"],"多萝西::breakthrough::5::爆炸艺术":["tag_b4xy1n","tag_7mhh0w","tag_1gyqcl1"],"拉妲::active::B::重装集结":["tag_5lehnz","tag_9a8rmu"],"拉妲::passive::1::弹幕掩护":["tag_1nzw1jy","tag_nxzzlj","tag_b4xy1n"],"拉妲::passive::2::火力校准":["tag_18ats66","tag_1doqgpb"],"拉妲::passive::4::战场调度":["tag_9a8rmu","tag_16i2jgp","tag_3mfu1b","tag_1doqgpb"],"拉妲::passive::5::铁翼军势":["tag_1hckm2o","tag_9a8rmu","tag_1m6xrjj","tag_7mhh0w"],"拉妲::breakthrough::1::昂扬战意":["tag_9qzixf","tag_nxzzlj","tag_14bvsb"],"拉妲::breakthrough::2::决胜之志":["tag_9a8rmu","tag_13to1ph","tag_1doqgpb","tag_5lehnz"],"拉妲::breakthrough::4::协同打击":["tag_aqezpd","tag_9a8rmu","tag_7mhh0w","tag_9qzixf","tag_1efhufs"],"拉妲::breakthrough::5::钢铁洪流":["tag_9qzixf","tag_ounbkl","tag_1f9c8n1"],"罗洁尔::breakthrough::1::灵感":["tag_i8v35i","tag_1j0b7cl","tag_nxzzlj","tag_jm0i1e"],"罗洁尔::breakthrough::2::圣裁":["tag_yhfeue","tag_fic5na","tag_1xdso4f","tag_1b96njf"],"罗洁尔::breakthrough::4::新生":["tag_1cilc9v","tag_12u43j4"],"罗洁尔::breakthrough::5::圣恩":["tag_1pwxv37","tag_rpxgrp","tag_1e1nde0"],"罗洁尔::passive::1::福音":["tag_1p00nf5","tag_13yt5kc"],"罗洁尔::passive::2::警言":["tag_1p00nf5","tag_ccpcq9"],"罗洁尔::passive::4::殉道":["tag_5azlbk","tag_13yt5kc"],"罗洁尔::passive::5::神律":["tag_1ux2a2u","tag_yhfeue","tag_6a2o30","tag_p7ugoq","tag_3mfu1b"],"罗洁尔::active::A::受难":["tag_1ifycmc","tag_a2agk9","tag_v7zeil","tag_15xkkm0"],"雷比斯::active::B::母球":["tag_5lehnz","tag_1rr96cn","tag_i8v35i"],"雷比斯::active::S::无弦之振":["tag_v7zeil","tag_13yt5kc","tag_i8v35i"],"雷比斯::active::A-1::【御敌之雷】":["tag_5lehnz","tag_i8v35i","tag_10mhsh1","tag_1cvdx0a","tag_13f1w1r"],"雷比斯::active::A-2::【摩地之风】":["tag_12wrg5d","tag_1b96njf","tag_1hckm2o"],"雷比斯::active::A-3::【制衡之钥】":["tag_1rr96cn","tag_wsjy98","tag_1ifycmc"],"雷比斯::passive::1::知者不言":["tag_1n90sjb","tag_i8v35i"],"雷比斯::passive::2::复元":["tag_4c4ke2","tag_6a2o30"],"雷比斯::passive::4::流溢":["tag_kb8p9x"],"雷比斯::passive::5::无为":["tag_1rr96cn","tag_8g3wiy"],"瑞秋::active::S::战地医生":["tag_19vgblu","tag_4c4ke2","tag_12u43j4","tag_9qzixf"],"瑞秋::passive::1::肾上腺素":["tag_kb8p9x","tag_13to1ph","tag_4c4ke2","tag_12u43j4","tag_1ubq5vw"],"瑞秋::passive::2::药理学":["tag_kb8p9x","tag_4c4ke2"],"瑞秋::passive::4::牵绊":["tag_4c4ke2","tag_12u43j4","tag_12wrg5d","tag_1cjpb6b"],"圣剑波克士::active::A-0::大师之艺":["tag_v7zeil"],"圣剑波克士::active::B::研磨之艺":["tag_kb8p9x","tag_1doqgpb","tag_g6rju2"],"圣剑波克士::active::S::风车之艺":["tag_bw4lom","tag_1b96njf"],"圣剑波克士::passive::2::生热":["tag_12wrg5d"],"圣剑波克士::passive::4::磨刀之艺":["tag_kb8p9x","tag_1doqgpb","tag_g6rju2"],"狮鬃::active::A::强打":["tag_1t4fc7p"],"狮鬃::active::S::我流·光害强打":["tag_9fqnl1","tag_1t4fc7p"],"狮鬃::active::B::家虎":["tag_1b96njf"],"狮鬃::passive::2::执著":["tag_4c4ke2","tag_6a2o30","tag_1elpe0l"],"狮鬃::passive::1::虚张声势":["tag_5lehnz"],"狮鬃::passive::4::坚忍":["tag_kb8p9x","tag_1doqgpb","tag_g6rju2"],"苏恩::active::A-0::新音":["tag_1rr96cn","tag_8g3wiy","tag_v7zeil","tag_1n90sjb","tag_4c4ke2","tag_6a2o30","tag_12u43j4","tag_9qzixf","tag_1b96njf"],"苏恩::active::B::旧章":["tag_5lehnz","tag_19vgblu","tag_1rr96cn","tag_8g3wiy","tag_v7zeil"],"苏恩::active::S::净化":["tag_exr6z7","tag_4c4ke2","tag_12u43j4","tag_9qzixf","tag_1hckm2o","tag_1r0c94j"],"苏恩::passive::1::恩典":["tag_4c4ke2","tag_12u43j4","tag_1ubq5vw"],"苏恩::passive::4::琉璃":["tag_kb8p9x","tag_g6rju2","tag_13647on","tag_1nzw1jy","tag_zfsgtd","tag_9qzixf"],"苏恩::passive::5::一念":["tag_kb8p9x","tag_1doqgpb","tag_182vves","tag_g6rju2","tag_4c4ke2","tag_12u43j4","tag_9qzixf"],"泳装静流::active::A::连涌":["tag_5lehnz","tag_1n90sjb","tag_yzvptz","tag_kb8p9x"],"泳装静流::active::B::海滨之花":["tag_5lehnz","tag_kb8p9x","tag_14bvsb","tag_9qzixf","tag_1u644ir","tag_62ninf","tag_ltdd5j"],"泳装静流::active::S::盛夏泡影":["tag_1n90sjb","tag_wsjy98","tag_1p3v11j","tag_1xr2380"],"泳装静流::active::C::夏日回忆":["tag_5lehnz","tag_19vgblu","tag_4c4ke2","tag_12u43j4"],"泳装静流::passive::2::清凉":["tag_14m04g1","tag_4c4ke2","tag_12u43j4","tag_dqwue0","tag_9qzixf","tag_1hckm2o"],"泳装静流::passive::5::夏日回忆":["tag_19vgblu","tag_v7zeil","tag_yzvptz","tag_kb8p9x","tag_14bvsb","tag_9qzixf"],"泳装静流::passive::4::愈流":["tag_5lehnz","tag_1n90sjb","tag_yzvptz","tag_14m04g1","tag_kb8p9x","tag_182vves","tag_g6rju2","tag_4c4ke2","tag_12u43j4","tag_12wrg5d","tag_9qzixf"],"泳装静流::passive::1::珠连":["tag_5lehnz","tag_1n90sjb","tag_yzvptz","tag_kb8p9x","tag_182vves","tag_g6rju2","tag_9qzixf"],"时萝::active::A::虹吸保卫者":["tag_1n90sjb"],"时萝::active::B::甜菜反应堆":["tag_kb8p9x","tag_g6rju2"],"时萝::active::S::无人机总动员":["tag_kb8p9x","tag_g6rju2"],"时萝::passive::1::回收指令":["tag_5lehnz","tag_1rr96cn"],"时萝::passive::4::活力速递":["tag_5lehnz","tag_4c4ke2","tag_12u43j4","tag_1ubq5vw","tag_2i1tsh"],"静流::active::A::震撼弹":["tag_9fqnl1","tag_1ifycmc","tag_7mhh0w"],"静流::active::B::强行突破":["tag_5lehnz"],"静流::active::S::强袭指令":["tag_1n90sjb","tag_exr6z7","tag_kb8p9x","tag_13to1ph","tag_9qzixf"],"静流::passive::1::肾上腺素":["tag_kb8p9x","tag_1doqgpb","tag_13to1ph","tag_4c4ke2","tag_6a2o30"],"静流::passive::2::备用弹":["tag_5lehnz"],"静流::passive::4::高爆装药":["tag_kb8p9x","tag_7mhh0w"],"阿尔喀娜::active::A::灵蝶环舞":["tag_4c4ke2","tag_12u43j4"],"阿尔喀娜::passive::2::蝶栖":["tag_kb8p9x","tag_4c4ke2"],"阿尔喀娜::passive::4::洗礼":["tag_yzvptz","tag_exr6z7"],"神盾波克士::active::S::大破修理":["tag_4c4ke2","tag_6a2o30"],"神盾波克士::active::B::加固":["tag_kb8p9x","tag_1doqgpb"],"神盾波克士::active::A-0::挨揍模式":["tag_exr6z7","tag_zfsgtd"],"神盾波克士::active::A-1::超级抗揍模式":["tag_exr6z7","tag_zfsgtd","tag_1b96njf"],"神盾波克士::passive::1::嵌入式空调":["tag_wsjy98","tag_1p3v11j"],"神盾波克士::passive::2::铁壁":["tag_exr6z7","tag_1nzw1jy","tag_zfsgtd"],"神盾波克士::passive::4::梆硬黏土":["tag_kb8p9x","tag_1doqgpb","tag_4c4ke2","tag_6a2o30"],"山岚::active::A::镰鼬":["tag_bw4lom"],"山岚::active::S::奥义·里镰鼬":["tag_bw4lom","tag_1ifycmc"],"山岚::passive::1::疾风":["tag_kb8p9x","tag_1doqgpb","tag_13to1ph"],"山岚::passive::2::伺机待动":["tag_yzvptz","tag_exr6z7","tag_kv1ygd"],"山岚::passive::4::凛冽":["tag_kb8p9x","tag_wsjy98","tag_1p3v11j","tag_bw4lom"],"伊索斯::active::A::知觉干预":["tag_1n90sjb","tag_exr6z7","tag_zfsgtd","tag_4c4ke2","tag_12u43j4"],"伊索斯::active::B::药物促醒":["tag_5lehnz","tag_19vgblu","tag_14m04g1","tag_4c4ke2","tag_12u43j4"],"伊索斯::active::S::契约":["tag_19vgblu","tag_1rr96cn","tag_4c4ke2","tag_12u43j4"],"伊索斯::passive::1::缓释制剂":["tag_kb8p9x"],"伊索斯::passive::2::知觉引导":["tag_1n90sjb","tag_yzvptz","tag_exr6z7","tag_kb8p9x","tag_zfsgtd","tag_4c4ke2","tag_12u43j4"],"伊索斯::passive::5::生息":["tag_19vgblu","tag_v7zeil","tag_kb8p9x","tag_4c4ke2","tag_9qzixf","tag_i8v35i"],"伊索斯::passive::4::靶向治疗":["tag_5lehnz","tag_19vgblu","tag_1rr96cn","tag_4c4ke2"],"陈书闲::active::A::醒神单丛":["tag_kb8p9x","tag_g6rju2","tag_13647on","tag_wsjy98","tag_1p3v11j","tag_12wrg5d","tag_1ubq5vw","tag_1w5i7ak"],"陈书闲::active::B::奉茶":["tag_5lehnz","tag_19vgblu","tag_1rr96cn"],"陈书闲::active::S::森罗茶寮":["tag_6o7ug4","tag_exr6z7","tag_1afqe6n","tag_12wrg5d","tag_9qzixf","tag_1w5i7ak","tag_1bddum6"],"陈书闲::passive::5::回甘百味":["tag_kb8p9x"],"陈书闲::passive::1::清风冷萃":["tag_exr6z7","tag_1nzw1jy","tag_zfsgtd"],"陈书闲::passive::2::清火养元":["tag_1ubq5vw"],"陈书闲::passive::4::致清导和":["tag_4c4ke2","tag_12u43j4","tag_1ubq5vw"],"切茜娅::active::A-1::溯源":["tag_5lehnz","tag_19vgblu","tag_i8v35i"],"切茜娅::active::B::钩沉":["tag_5lehnz","tag_1n90sjb","tag_1b96njf"],"切茜娅::active::S::考镜":["tag_exr6z7","tag_9qzixf","tag_1b96njf","tag_i8v35i"],"切茜娅::active::A-0::索隐":["tag_5lehnz","tag_19vgblu","tag_v7zeil","tag_i8v35i"],"切茜娅::active::A-2::脉望":["tag_1rr96cn","tag_4c4ke2","tag_1ubq5vw"],"切茜娅::active::A-3::渊汲":["tag_5lehnz","tag_v7zeil"],"切茜娅::passive::4::神枢":["tag_kb8p9x","tag_1doqgpb","tag_9qzixf","tag_1ubq5vw"],"切茜娅::passive::1::耘耛":["tag_5lehnz","tag_v7zeil","tag_i8v35i"],"切茜娅::passive::5::凿光":["tag_5lehnz","tag_19vgblu","tag_1rr96cn"],"切茜娅::passive::2::洞幽":["tag_yhfeue","tag_1amttol"],"卡莲::active::B-0::紧急响应":["tag_19vgblu","tag_v7zeil","tag_13yt5kc","tag_1n90sjb","tag_yzvptz","tag_exr6z7"],"卡莲::active::S::花园":["tag_6o7ug4","tag_exr6z7","tag_4c4ke2","tag_6a2o30","tag_12u43j4","tag_1qq4sim"],"卡莲::active::B-2::噜啦弹":["tag_4c4ke2","tag_12u43j4"],"卡莲::active::B-1::快速上弹":["tag_5lehnz"],"卡莲::passive::1::肾上腺素":["tag_kb8p9x","tag_1doqgpb","tag_13to1ph","tag_4c4ke2","tag_6a2o30"],"卡莲::passive::4::特效装药":["tag_4c4ke2","tag_12u43j4"],"嘉尔::active::B::星诵":["tag_5lehnz","tag_kb8p9x","tag_14bvsb"],"嘉尔::active::S::生命称赞诗":["tag_exr6z7","tag_4c4ke2","tag_12u43j4","tag_9qzixf"],"嘉尔::passive::1::心之壳":["tag_9qzixf"],"嘉尔::passive::2::羽织":["tag_kb8p9x","tag_4c4ke2","tag_12u43j4"],"嘉尔::passive::4::星谕":["tag_5lehnz","tag_19vgblu","tag_1rr96cn"],"嘉尔::passive::5::羽化":["tag_kb8p9x"],"卡莱雅::active::A::微波":["tag_4c4ke2","tag_12u43j4","tag_12wrg5d","tag_1xr2380"],"卡莱雅::active::B::锚点传送":["tag_5lehnz","tag_12wrg5d","tag_dqwue0","tag_1hckm2o"],"卡莱雅::active::S::富氧大气":["tag_kb8p9x","tag_g6rju2","tag_12wrg5d","tag_dqwue0","tag_1xr2380","tag_1hckm2o"],"卡莱雅::passive::5::蛙跳瓦普":["tag_5lehnz"],"卡莱雅::passive::4::增幅":["tag_kb8p9x","tag_4c4ke2","tag_12u43j4","tag_12wrg5d","tag_1xr2380"],"卡莱雅::passive::2::检查点":["tag_5lehnz","tag_19vgblu","tag_kb8p9x","tag_12wrg5d","tag_dqwue0","tag_1hckm2o"],"小麦::active::A::松果快递！":["tag_kb8p9x","tag_g6rju2","tag_9a8rmu"],"小麦::active::B::芥末棒骨！":["tag_1rr96cn","tag_8g3wiy","tag_kb8p9x","tag_14bvsb"],"小麦::passive::5::凝固汽油芯":["tag_dqwue0","tag_1hckm2o"],"小麦::passive::4::弃置包裹":["tag_1rr96cn","tag_8g3wiy"],"小麦::passive::2::气雾扩散":["tag_1rr96cn","tag_8g3wiy","tag_kb8p9x","tag_1doqgpb","tag_14bvsb","tag_4c4ke2","tag_12u43j4","tag_1ifycmc"],"克洛伊::active::A::磁轨":["tag_1rr96cn","tag_8g3wiy","tag_v7zeil","tag_i8v35i","tag_10mhsh1"],"克洛伊::active::B::磁流":["tag_1rr96cn","tag_8g3wiy","tag_exr6z7"],"克洛伊::active::S::极化雷域":["tag_5lehnz","tag_1rr96cn","tag_8g3wiy","tag_lzj94x","tag_exr6z7","tag_kb8p9x","tag_10mhsh1","tag_13f1w1r"],"克洛伊::passive::5::霆击弧光":["tag_dqwue0","tag_1t4fc7p","tag_10mhsh1","tag_1cvdx0a"],"克洛伊::passive::2::负能激发":["tag_i8v35i","tag_uz3ks1","tag_1cvdx0a","tag_zj2gyu"],"克洛伊::passive::4::电势传导":["tag_1rr96cn","tag_8g3wiy","tag_10mhsh1"],"克洛伊::passive::1::等离子迸涌":["tag_19vgblu","tag_exr6z7","tag_1xr2380","tag_10mhsh1","tag_11azsew"],"圣剑波克士::active::A-1::横斩":["tag_58gamh"],"圣剑波克士::active::A-2::纵劈":["tag_58gamh"],"圣剑波克士::active::A-3::怒击":["tag_m5zibw"],"神盾波克士::breakthrough::4::修复专家":["tag_1krp239"],"山岚::breakthrough::4::风刃":["tag_bw4lom"],"山岚::breakthrough::5::虎火":["tag_12wrg5d"],"时萝::breakthrough::3::斗志":["tag_1l93hvk"],"小麦::breakthrough::3::斗志":["tag_1l93hvk"],"小麦::breakthrough::4::能量耦合":["tag_1l93hvk"],"米莉::breakthrough::4::斗志":["tag_1l93hvk"],"埃兹拉::breakthrough::4::斗志":["tag_1l93hvk"],"圣剑波克士::breakthrough::1::充磁":["tag_1l93hvk"],"圣剑波克士::breakthrough::3::斗志":["tag_1l93hvk"],"狮鬃::breakthrough::3::斗志":["tag_1l93hvk"],"狮鬃::breakthrough::4::MIX":["tag_1l93hvk"],"静流::breakthrough::3::斗志":["tag_1l93hvk"],"静流::breakthrough::5::指挥官":["tag_1l93hvk"],"阿尔喀娜::breakthrough::3::斗志":["tag_1l93hvk"],"山岚::breakthrough::3::斗志":["tag_1l93hvk"],"雷比斯::breakthrough::3::斗志":["tag_1l93hvk"],"雷比斯::breakthrough::4::强韧":["tag_1l93hvk"],"神盾波克士::breakthrough::1::充磁":["tag_1l93hvk"],"神盾波克士::breakthrough::3::斗志":["tag_1l93hvk"],"时萝::breakthrough::1::无人机攻势":["tag_js62n5","tag_2i1tsh"],"时萝::breakthrough::2::补给序列":["tag_js62n5","tag_1ngeq2g"],"时萝::breakthrough::4::追猎协议":["tag_js62n5"],"时萝::breakthrough::5::蜂群思维":["tag_js62n5"],"时萝::passive::2::甜菜派对":["tag_js62n5"],"时萝::passive::5::涌现效应":["tag_js62n5"],"圣剑波克士::breakthrough::4::锻刃":["tag_14bvsb"],"狮鬃::breakthrough::5::打CALL":["tag_14bvsb"],"山岚::breakthrough::1::凌厉":["tag_14bvsb"],"小麦::breakthrough::1::聚能芯":["tag_7mhh0w"],"小麦::breakthrough::2::撤离协议":["tag_7mhh0w","tag_1ez1ec1"],"阿尔喀娜::breakthrough::2::泉涌":["tag_3mfu1b"],"阿尔喀娜::breakthrough::4::自然馈赠":["tag_4c4ke2"],"圣剑波克士::passive::1::招架之艺":["tag_1xr75m"],"静流::breakthrough::4::绝境强袭":["tag_1krp239"],"马吉拉·星仪::active::B::塔":["tag_xc7s9m","tag_it5sim","tag_180xtl5","tag_1khehum","tag_yijz41","tag_lvzfeq","tag_1cjpb6b"],"伊卡菈::breakthrough::1::亘古之脉":["tag_xc7s9m","tag_lvzfeq","tag_1cjpb6b"],"帕拉笛::breakthrough::5::蓝火":["tag_xc7s9m"],"涟::breakthrough::1::夜啼悲歌":["tag_t7qe65","tag_1o8wu92","tag_1yl57kj","tag_l745i0"],"夏尔::breakthrough::5::混乱攻势":["tag_t7qe65","tag_11l4z33","tag_1o8wu92","tag_vrj6xd","tag_1m18o4b","tag_oaw15n","tag_qywrwy","tag_1yl57kj"],"夏尔::active::S::MEGA混沌加农":["tag_t7qe65","tag_11l4z33","tag_1o8wu92","tag_vrj6xd","tag_1m18o4b","tag_oaw15n","tag_qywrwy","tag_1yl57kj"],"莱格宝宝::active::S::MEGA混沌加农":["tag_t7qe65","tag_11l4z33","tag_1o8wu92","tag_vrj6xd","tag_1m18o4b","tag_oaw15n","tag_qywrwy","tag_1yl57kj"],"泳装静流::breakthrough::1::涟漪":["tag_1j601h3","tag_1ptfe5f","tag_1u644ir","tag_62ninf"],"真咲::breakthrough::2::恋人":["tag_1q0zqnl","tag_1763oo3","tag_1y7akxb","tag_nu886x"],"马吉拉·星仪::breakthrough::2::恋人":["tag_1q0zqnl","tag_1763oo3","tag_1y7akxb","tag_nu886x"],"佩罗塔::active::S-0::蓄电磁场":["tag_17b08c9","tag_19vs4nw","tag_1o2mhp8","tag_1ibftnz"],"晃::breakthrough::2::急冻":["tag_180xtl5"],"伊利亚德::active::S::冬去时":["tag_1tlc8wg","tag_g9yy0q","tag_7f7tx6","tag_c7i44u"],"苏恩::breakthrough::5::真念":["tag_g294tw"],"苏恩::breakthrough::4::琉璃":["tag_eqllv3"],"约书亚::passive::4::索取":["tag_eqllv3"],"瑞瓦::passive::5::恶果之地":["tag_8extj5"],"无名::passive::4::卡巴内瑞之力":["tag_8extj5","tag_55ovvu"],"夏尔::passive::5::呐呐呐~呐~":["tag_8extj5","tag_55ovvu"],"夏洛蒂::passive::4::顽强":["tag_8extj5"],"雅莱::passive::2::馈赠":["tag_8extj5"],"伊卡菈::passive::2::永劫之鳞":["tag_8extj5"],"生驹::passive::4::卡巴内瑞之力":["tag_8extj5","tag_55ovvu"],"海伦娜::passive::2::琳琅":["tag_8extj5"],"苔妮::breakthrough::1::磁冷":["tag_1khehum"],"苔妮::breakthrough::5::冰裂":["tag_1khehum"],"伊尔::breakthrough::4::蜂群协议":["tag_kdym4q"],"卡洛琳::breakthrough::4::雷云协议":["tag_kdym4q"],"跳鼠::breakthrough::1::剑舞":["tag_g9yy0q"],"霖::breakthrough::1::剑舞":["tag_g9yy0q"],"魇::breakthrough::1::剑舞":["tag_g9yy0q"],"索玛::active::S-0::血噬":["tag_g9yy0q","tag_1vtg0tr","tag_l8jnua","tag_zj2gyu","tag_c7i44u"],"斯洛卡伊::active::S::机神咆哮":["tag_g9yy0q","tag_7f7tx6","tag_c7i44u"],"蒂丝塔尔::breakthrough::2::朝露凝萃":["tag_g9yy0q","tag_1uvyz8u","tag_t0gdkr"],"遥::active::S-0::《我会在这里》":["tag_g9yy0q"],"伽罗尔::breakthrough::2::帽子戏法":["tag_1elpe0l"],"埃泽拉::passive::3::执著":["tag_1elpe0l"],"约书亚::passive::5::炽烈":["tag_1elpe0l"],"涟::breakthrough::2::“终焉毁灭者”":["tag_fgr3uz"],"隼::breakthrough::1::刺杀术":["tag_fgr3uz"],"乌刹娜::breakthrough::4::新生":["tag_1gwxwyw"],"柯娜::breakthrough::4::崩星":["tag_1o8wu92"],"乌刹娜::breakthrough::1::灵感":["tag_jm0i1e"],"约书亚::breakthrough::1::灵感":["tag_jm0i1e"],"克洛伊::breakthrough::1::灵感":["tag_jm0i1e"],"黛丝莉::breakthrough::5::流转":["tag_1vtg0tr"],"冯里奈::breakthrough::5::流转":["tag_1vtg0tr"],"莉薇娅::breakthrough::5::流转":["tag_1vtg0tr"],"索玛::breakthrough::5::血裔":["tag_1vtg0tr"],"菲妮娅::breakthrough::5::流转":["tag_1vtg0tr"],"斯洛卡伊::breakthrough::2::钻心":["tag_7f7tx6"],"伊利亚德::passive::5::海潮如梦":["tag_7f7tx6"],"帕拉笛::breakthrough::1::灵活部署":["tag_7f7tx6"],"罗洁尔·定格::breakthrough::4::星核":["tag_1tf58li","tag_p2ixco"],"柯娜::active::S-0::巨像战阵":["tag_a6m8pf"],"柯娜::active::S-1::巨像战阵II":["tag_a6m8pf"],"伽罗尔::passive::1::先手":["tag_yypvzv"],"跳鼠::passive::1::先之先":["tag_yypvzv"],"莱卡吉亚::passive::1::战术掩护":["tag_yypvzv"],"遥::passive::2::《镜中人》":["tag_yypvzv"],"海因里希::passive::1::战术推进":["tag_yypvzv"],"闻笙::passive::2::冷静":["tag_kedrj2"],"苏恩::breakthrough::2::无心":["tag_kedrj2"],"星花::passive::1::活力":["tag_kedrj2"],"卡塔斯::breakthrough::1::狂战":["tag_kedrj2"],"瓦伦汀::passive::4::牵绊":["tag_1cjpb6b"],"卡莱雅::breakthrough::2::助燃":["tag_1cjpb6b"],"斯洛卡伊::breakthrough::1::荆棘王座":["tag_t0gdkr"],"乌刹娜::passive::1::怒相":["tag_t0gdkr"],"真咲::passive::2::倒吊人":["tag_ltdd5j"],"伊卡菈::breakthrough::2::律动之息":["tag_ltdd5j"],"迪妮莎::breakthrough::1::杀意":["tag_ltdd5j"],"甘雅::passive::2::镇定":["tag_13f1w1r"],"甘雅::passive::5::饱和攻击":["tag_13f1w1r"],"瑞瓦::breakthrough::1::舍取":["tag_13f1w1r"],"瑞瓦::passive::2::梭哈":["tag_13f1w1r"],"瑞瓦::active::B-3::虚妄的呼唤":["tag_13f1w1r"],"伊索斯::breakthrough::4::置换疗法":["tag_13f1w1r"],"菲妮娅::active::S::致胜闪耀":["tag_13f1w1r"],"沃斯托克::breakthrough::2::姿态调整":["tag_1bddum6"],"蒂丝塔尔::breakthrough::5::浮光跃金":["tag_1bddum6","tag_rzuxtt"],"蒂丝塔尔::active::S::纯白圣域":["tag_1bddum6","tag_rzuxtt"],"海伦娜::active::A::流光":["tag_1bddum6"],"约书亚::breakthrough::4::新生":["tag_1cilc9v"],"克洛伊::breakthrough::4::新生":["tag_1cilc9v"],"约书亚::passive::1::涌动":["tag_zj2gyu"],"卡塔斯::breakthrough::4::魔剑主":["tag_zj2gyu"],"甘雅::passive::4::机械师":["tag_rzuxtt"],"雅莱::passive::1::“看不见的朋友”":["tag_nwa2pu"],"安菲娅::breakthrough::1::解构":["tag_nwa2pu"],"奈弥::breakthrough::4::双极乱心":["tag_1yl57kj","tag_l745i0"]},"assignmentSources":{"雷比斯::active::B::母球":{"tag_5lehnz":"auto","tag_1rr96cn":"auto","tag_i8v35i":"auto"},"雷比斯::active::S::无弦之振":{"tag_v7zeil":"auto","tag_13yt5kc":"auto","tag_i8v35i":"auto"},"雷比斯::active::A-1::【御敌之雷】":{"tag_5lehnz":"auto","tag_i8v35i":"auto","tag_10mhsh1":"auto","tag_1cvdx0a":"auto","tag_13f1w1r":"manual"},"雷比斯::active::A-2::【摩地之风】":{"tag_12wrg5d":"auto","tag_1b96njf":"auto","tag_1hckm2o":"auto"},"雷比斯::active::A-3::【制衡之钥】":{"tag_1rr96cn":"auto","tag_wsjy98":"auto","tag_1ifycmc":"auto"},"雷比斯::passive::1::知者不言":{"tag_1n90sjb":"auto","tag_i8v35i":"auto"},"雷比斯::passive::2::复元":{"tag_4c4ke2":"auto","tag_6a2o30":"auto"},"雷比斯::passive::4::流溢":{"tag_kb8p9x":"auto"},"雷比斯::passive::5::无为":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto"},"瑞秋::active::S::战地医生":{"tag_19vgblu":"manual","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_9qzixf":"auto"},"瑞秋::passive::1::肾上腺素":{"tag_kb8p9x":"auto","tag_13to1ph":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_1ubq5vw":"auto"},"瑞秋::passive::2::药理学":{"tag_kb8p9x":"auto","tag_4c4ke2":"auto"},"瑞秋::passive::4::牵绊":{"tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_12wrg5d":"auto","tag_1cjpb6b":"manual"},"圣剑波克士::active::A-0::大师之艺":{"tag_v7zeil":"auto"},"圣剑波克士::active::B::研磨之艺":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_g6rju2":"auto"},"圣剑波克士::active::S::风车之艺":{"tag_bw4lom":"auto","tag_1b96njf":"auto"},"圣剑波克士::passive::2::生热":{"tag_12wrg5d":"auto"},"圣剑波克士::passive::4::磨刀之艺":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_g6rju2":"auto"},"狮鬃::active::A::强打":{"tag_1t4fc7p":"auto"},"狮鬃::active::S::我流·光害强打":{"tag_9fqnl1":"auto","tag_1t4fc7p":"auto"},"狮鬃::active::B::家虎":{"tag_1b96njf":"auto"},"狮鬃::passive::2::执著":{"tag_4c4ke2":"auto","tag_6a2o30":"auto","tag_1elpe0l":"manual"},"狮鬃::passive::1::虚张声势":{"tag_5lehnz":"auto"},"狮鬃::passive::4::坚忍":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_g6rju2":"auto"},"苏恩::active::A-0::新音":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_v7zeil":"auto","tag_1n90sjb":"auto","tag_4c4ke2":"auto","tag_6a2o30":"auto","tag_12u43j4":"auto","tag_9qzixf":"auto","tag_1b96njf":"auto"},"苏恩::active::B::旧章":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_v7zeil":"auto"},"苏恩::active::S::净化":{"tag_exr6z7":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_9qzixf":"auto","tag_1hckm2o":"auto","tag_1r0c94j":"manual"},"苏恩::passive::1::恩典":{"tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_1ubq5vw":"auto"},"苏恩::passive::4::琉璃":{"tag_kb8p9x":"auto","tag_g6rju2":"auto","tag_13647on":"auto","tag_1nzw1jy":"auto","tag_zfsgtd":"auto","tag_9qzixf":"auto"},"苏恩::passive::5::一念":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_182vves":"auto","tag_g6rju2":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_9qzixf":"auto"},"泳装静流::active::A::连涌":{"tag_5lehnz":"auto","tag_1n90sjb":"auto","tag_yzvptz":"auto","tag_kb8p9x":"auto"},"泳装静流::active::B::海滨之花":{"tag_5lehnz":"auto","tag_kb8p9x":"auto","tag_14bvsb":"auto","tag_9qzixf":"auto","tag_1u644ir":"manual","tag_62ninf":"manual","tag_ltdd5j":"manual"},"泳装静流::active::S::盛夏泡影":{"tag_1n90sjb":"auto","tag_wsjy98":"auto","tag_1p3v11j":"auto","tag_1xr2380":"auto"},"泳装静流::active::C::夏日回忆":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"泳装静流::passive::2::清凉":{"tag_14m04g1":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_dqwue0":"auto","tag_9qzixf":"auto","tag_1hckm2o":"auto"},"泳装静流::passive::5::夏日回忆":{"tag_19vgblu":"manual","tag_v7zeil":"auto","tag_yzvptz":"auto","tag_kb8p9x":"auto","tag_14bvsb":"auto","tag_9qzixf":"auto"},"泳装静流::passive::4::愈流":{"tag_5lehnz":"auto","tag_1n90sjb":"auto","tag_yzvptz":"auto","tag_14m04g1":"auto","tag_kb8p9x":"auto","tag_182vves":"auto","tag_g6rju2":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_12wrg5d":"auto","tag_9qzixf":"auto"},"泳装静流::passive::1::珠连":{"tag_5lehnz":"auto","tag_1n90sjb":"auto","tag_yzvptz":"auto","tag_kb8p9x":"auto","tag_182vves":"auto","tag_g6rju2":"auto","tag_9qzixf":"auto"},"时萝::active::A::虹吸保卫者":{"tag_1n90sjb":"auto"},"时萝::active::B::甜菜反应堆":{"tag_kb8p9x":"auto","tag_g6rju2":"auto"},"时萝::active::S::无人机总动员":{"tag_kb8p9x":"auto","tag_g6rju2":"auto"},"时萝::passive::1::回收指令":{"tag_5lehnz":"auto","tag_1rr96cn":"auto"},"时萝::passive::4::活力速递":{"tag_5lehnz":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_1ubq5vw":"auto","tag_2i1tsh":"manual"},"静流::active::A::震撼弹":{"tag_9fqnl1":"auto","tag_1ifycmc":"auto","tag_7mhh0w":"auto"},"静流::active::B::强行突破":{"tag_5lehnz":"auto"},"静流::active::S::强袭指令":{"tag_1n90sjb":"auto","tag_exr6z7":"auto","tag_kb8p9x":"auto","tag_13to1ph":"auto","tag_9qzixf":"auto"},"静流::passive::1::肾上腺素":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_13to1ph":"auto","tag_4c4ke2":"auto","tag_6a2o30":"auto"},"静流::passive::2::备用弹":{"tag_5lehnz":"auto"},"静流::passive::4::高爆装药":{"tag_kb8p9x":"auto","tag_7mhh0w":"auto"},"阿尔喀娜::active::A::灵蝶环舞":{"tag_4c4ke2":"auto","tag_12u43j4":"auto"},"阿尔喀娜::passive::2::蝶栖":{"tag_kb8p9x":"auto","tag_4c4ke2":"auto"},"阿尔喀娜::passive::4::洗礼":{"tag_yzvptz":"auto","tag_exr6z7":"auto"},"神盾波克士::active::S::大破修理":{"tag_4c4ke2":"auto","tag_6a2o30":"auto"},"神盾波克士::active::B::加固":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto"},"神盾波克士::active::A-0::挨揍模式":{"tag_exr6z7":"auto","tag_zfsgtd":"auto"},"神盾波克士::active::A-1::超级抗揍模式":{"tag_exr6z7":"auto","tag_zfsgtd":"auto","tag_1b96njf":"auto"},"神盾波克士::passive::1::嵌入式空调":{"tag_wsjy98":"auto","tag_1p3v11j":"auto"},"神盾波克士::passive::2::铁壁":{"tag_exr6z7":"auto","tag_1nzw1jy":"auto","tag_zfsgtd":"auto"},"神盾波克士::passive::4::梆硬黏土":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_4c4ke2":"auto","tag_6a2o30":"auto"},"山岚::active::A::镰鼬":{"tag_bw4lom":"auto"},"山岚::active::S::奥义·里镰鼬":{"tag_bw4lom":"auto","tag_1ifycmc":"auto"},"山岚::passive::1::疾风":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_13to1ph":"auto"},"山岚::passive::2::伺机待动":{"tag_yzvptz":"auto","tag_exr6z7":"auto","tag_kv1ygd":"auto"},"山岚::passive::4::凛冽":{"tag_kb8p9x":"auto","tag_wsjy98":"auto","tag_1p3v11j":"auto","tag_bw4lom":"auto"},"伊索斯::active::A::知觉干预":{"tag_1n90sjb":"auto","tag_exr6z7":"auto","tag_zfsgtd":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"伊索斯::active::B::药物促醒":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_14m04g1":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"伊索斯::active::S::契约":{"tag_19vgblu":"manual","tag_1rr96cn":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"伊索斯::passive::1::缓释制剂":{"tag_kb8p9x":"auto"},"伊索斯::passive::2::知觉引导":{"tag_1n90sjb":"auto","tag_yzvptz":"auto","tag_exr6z7":"auto","tag_kb8p9x":"auto","tag_zfsgtd":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"伊索斯::passive::5::生息":{"tag_19vgblu":"manual","tag_v7zeil":"auto","tag_kb8p9x":"auto","tag_4c4ke2":"auto","tag_9qzixf":"auto","tag_i8v35i":"auto"},"伊索斯::passive::4::靶向治疗":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_1rr96cn":"auto","tag_4c4ke2":"auto"},"陈书闲::active::A::醒神单丛":{"tag_kb8p9x":"auto","tag_g6rju2":"auto","tag_13647on":"auto","tag_wsjy98":"auto","tag_1p3v11j":"auto","tag_12wrg5d":"auto","tag_1ubq5vw":"auto","tag_1w5i7ak":"auto"},"陈书闲::active::B::奉茶":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_1rr96cn":"auto"},"陈书闲::active::S::森罗茶寮":{"tag_6o7ug4":"auto","tag_exr6z7":"auto","tag_1afqe6n":"auto","tag_12wrg5d":"auto","tag_9qzixf":"auto","tag_1w5i7ak":"auto","tag_1bddum6":"manual"},"陈书闲::passive::5::回甘百味":{"tag_kb8p9x":"auto"},"陈书闲::passive::1::清风冷萃":{"tag_exr6z7":"auto","tag_1nzw1jy":"auto","tag_zfsgtd":"auto"},"陈书闲::passive::2::清火养元":{"tag_1ubq5vw":"auto"},"陈书闲::passive::4::致清导和":{"tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_1ubq5vw":"auto"},"切茜娅::active::A-1::溯源":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_i8v35i":"auto"},"切茜娅::active::B::钩沉":{"tag_5lehnz":"auto","tag_1n90sjb":"auto","tag_1b96njf":"auto"},"切茜娅::active::S::考镜":{"tag_exr6z7":"auto","tag_9qzixf":"auto","tag_1b96njf":"auto","tag_i8v35i":"auto"},"切茜娅::active::A-0::索隐":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_v7zeil":"auto","tag_i8v35i":"auto"},"切茜娅::active::A-2::脉望":{"tag_1rr96cn":"auto","tag_4c4ke2":"auto","tag_1ubq5vw":"auto"},"切茜娅::active::A-3::渊汲":{"tag_5lehnz":"auto","tag_v7zeil":"auto"},"切茜娅::passive::4::神枢":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_9qzixf":"auto","tag_1ubq5vw":"auto"},"切茜娅::passive::1::耘耛":{"tag_5lehnz":"auto","tag_v7zeil":"auto","tag_i8v35i":"auto"},"切茜娅::passive::5::凿光":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_1rr96cn":"auto"},"切茜娅::passive::2::洞幽":{"tag_yhfeue":"auto","tag_1amttol":"manual"},"卡莲::active::B-0::紧急响应":{"tag_19vgblu":"manual","tag_v7zeil":"auto","tag_13yt5kc":"auto","tag_1n90sjb":"auto","tag_yzvptz":"auto","tag_exr6z7":"auto"},"卡莲::active::S::花园":{"tag_6o7ug4":"auto","tag_exr6z7":"auto","tag_4c4ke2":"auto","tag_6a2o30":"auto","tag_12u43j4":"auto","tag_1qq4sim":"manual"},"卡莲::active::B-2::噜啦弹":{"tag_4c4ke2":"auto","tag_12u43j4":"auto"},"卡莲::active::B-1::快速上弹":{"tag_5lehnz":"auto"},"卡莲::passive::1::肾上腺素":{"tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_13to1ph":"auto","tag_4c4ke2":"auto","tag_6a2o30":"auto"},"卡莲::passive::4::特效装药":{"tag_4c4ke2":"auto","tag_12u43j4":"auto"},"嘉尔::active::B::星诵":{"tag_5lehnz":"auto","tag_kb8p9x":"auto","tag_14bvsb":"auto"},"嘉尔::active::S::生命称赞诗":{"tag_exr6z7":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_9qzixf":"auto"},"嘉尔::passive::1::心之壳":{"tag_9qzixf":"auto"},"嘉尔::passive::2::羽织":{"tag_kb8p9x":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto"},"嘉尔::passive::4::星谕":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_1rr96cn":"auto"},"嘉尔::passive::5::羽化":{"tag_kb8p9x":"auto"},"卡莱雅::active::A::微波":{"tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_12wrg5d":"auto","tag_1xr2380":"auto"},"卡莱雅::active::B::锚点传送":{"tag_5lehnz":"auto","tag_12wrg5d":"auto","tag_dqwue0":"auto","tag_1hckm2o":"auto"},"卡莱雅::active::S::富氧大气":{"tag_kb8p9x":"auto","tag_g6rju2":"auto","tag_12wrg5d":"auto","tag_dqwue0":"auto","tag_1xr2380":"auto","tag_1hckm2o":"auto"},"卡莱雅::passive::5::蛙跳瓦普":{"tag_5lehnz":"auto"},"卡莱雅::passive::4::增幅":{"tag_kb8p9x":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_12wrg5d":"auto","tag_1xr2380":"auto"},"卡莱雅::passive::2::检查点":{"tag_5lehnz":"auto","tag_19vgblu":"manual","tag_kb8p9x":"auto","tag_12wrg5d":"auto","tag_dqwue0":"auto","tag_1hckm2o":"auto"},"小麦::active::A::松果快递！":{"tag_kb8p9x":"auto","tag_g6rju2":"auto","tag_9a8rmu":"auto"},"小麦::active::B::芥末棒骨！":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_kb8p9x":"auto","tag_14bvsb":"auto"},"小麦::passive::5::凝固汽油芯":{"tag_dqwue0":"auto","tag_1hckm2o":"auto"},"小麦::passive::4::弃置包裹":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto"},"小麦::passive::2::气雾扩散":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_kb8p9x":"auto","tag_1doqgpb":"auto","tag_14bvsb":"auto","tag_4c4ke2":"auto","tag_12u43j4":"auto","tag_1ifycmc":"auto"},"克洛伊::active::A::磁轨":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_v7zeil":"auto","tag_i8v35i":"auto","tag_10mhsh1":"auto"},"克洛伊::active::B::磁流":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_exr6z7":"auto"},"克洛伊::active::S::极化雷域":{"tag_5lehnz":"auto","tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_lzj94x":"auto","tag_exr6z7":"auto","tag_kb8p9x":"auto","tag_10mhsh1":"auto","tag_13f1w1r":"manual"},"克洛伊::passive::5::霆击弧光":{"tag_dqwue0":"auto","tag_1t4fc7p":"auto","tag_10mhsh1":"auto","tag_1cvdx0a":"auto"},"克洛伊::passive::2::负能激发":{"tag_i8v35i":"auto","tag_uz3ks1":"auto","tag_1cvdx0a":"auto","tag_zj2gyu":"manual"},"克洛伊::passive::4::电势传导":{"tag_1rr96cn":"auto","tag_8g3wiy":"auto","tag_10mhsh1":"auto"},"克洛伊::passive::1::等离子迸涌":{"tag_19vgblu":"manual","tag_exr6z7":"auto","tag_1xr2380":"auto","tag_10mhsh1":"auto","tag_11azsew":"manual"},"马吉拉·星仪::active::S::命运之轮":{"tag_1xnyod3":"auto","tag_9zjd3c":"manual","tag_1tf58li":"manual","tag_p2ixco":"manual","tag_59stzn":"manual"},"奥莉薇恩::active::S::鎏晶茶仪":{"tag_19wwsqi":"auto"},"伊卡菈::active::S-0::真龙·劫炎咏叹":{"tag_1nu2p30":"auto"},"伊卡菈::active::S-1::真龙·烬灭敕令":{"tag_1nu2p30":"auto"},"迪妮莎::active::S::S·E·E·D·S":{"tag_1yn7g7o":"auto","tag_ltdd5j":"manual"},"蒂丝塔尔::active::A::流羽明光":{"tag_1yn7g7o":"auto"},"赫卡蒂::active::S::雨之海":{"tag_1d177io":"auto","tag_1bddum6":"manual"},"蓝鹊儿::active::A-0::定缘":{"tag_1nryeyb":"auto"},"蓝鹊儿::active::A-1::诛心":{"tag_1nryeyb":"auto"},"蓝鹊儿::active::A-2::裁命":{"tag_1nryeyb":"auto"},"蓝鹊儿::active::S::飞羽·惊鸿":{"tag_1yn7g7o":"auto","tag_1nryeyb":"auto"},"夏洛蒂·澄心::active::A::孤月":{"tag_1yn7g7o":"auto"},"夏洛蒂·澄心::active::C::无毁之一击":{"tag_1yn7g7o":"auto"},"夏洛蒂·澄心::active::S::湖中月":{"tag_1yn7g7o":"auto"},"卡塔斯·业火::active::A::震音连击":{"tag_1glw6xx":"auto"},"卡塔斯·业火::active::S-0::无想琶音·圣羽燎奏":{"tag_1glw6xx":"auto"},"卡塔斯·业火::active::S-1::无想琶音·煌翼天鸣":{"tag_1glw6xx":"auto"},"那由他::active::S-0::谜":{"tag_19vgblu":"manual"},"圣剑波克士::active::A-1::横斩":{"tag_58gamh":"auto"},"圣剑波克士::active::A-2::纵劈":{"tag_58gamh":"auto"},"圣剑波克士::active::A-3::怒击":{"tag_m5zibw":"auto"},"神盾波克士::breakthrough::4::修复专家":{"tag_1krp239":"auto"},"山岚::breakthrough::4::风刃":{"tag_bw4lom":"auto"},"山岚::breakthrough::5::虎火":{"tag_12wrg5d":"auto"},"时萝::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"小麦::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"小麦::breakthrough::4::能量耦合":{"tag_1l93hvk":"auto"},"米莉::breakthrough::4::斗志":{"tag_1l93hvk":"auto"},"埃兹拉::breakthrough::4::斗志":{"tag_1l93hvk":"auto"},"圣剑波克士::breakthrough::1::充磁":{"tag_1l93hvk":"auto"},"圣剑波克士::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"狮鬃::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"狮鬃::breakthrough::4::MIX":{"tag_1l93hvk":"auto"},"静流::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"静流::breakthrough::5::指挥官":{"tag_1l93hvk":"auto"},"阿尔喀娜::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"山岚::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"雷比斯::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"雷比斯::breakthrough::4::强韧":{"tag_1l93hvk":"auto"},"神盾波克士::breakthrough::1::充磁":{"tag_1l93hvk":"auto"},"神盾波克士::breakthrough::3::斗志":{"tag_1l93hvk":"auto"},"时萝::breakthrough::1::无人机攻势":{"tag_js62n5":"auto","tag_2i1tsh":"manual"},"时萝::breakthrough::2::补给序列":{"tag_js62n5":"auto","tag_1ngeq2g":"manual"},"时萝::breakthrough::4::追猎协议":{"tag_js62n5":"auto"},"时萝::breakthrough::5::蜂群思维":{"tag_js62n5":"auto"},"时萝::passive::2::甜菜派对":{"tag_js62n5":"auto"},"时萝::passive::5::涌现效应":{"tag_js62n5":"auto"},"圣剑波克士::breakthrough::4::锻刃":{"tag_14bvsb":"auto"},"狮鬃::breakthrough::5::打CALL":{"tag_14bvsb":"auto"},"山岚::breakthrough::1::凌厉":{"tag_14bvsb":"auto"},"小麦::breakthrough::1::聚能芯":{"tag_7mhh0w":"auto"},"小麦::breakthrough::2::撤离协议":{"tag_7mhh0w":"auto","tag_1ez1ec1":"manual"},"阿尔喀娜::breakthrough::2::泉涌":{"tag_3mfu1b":"auto"},"阿尔喀娜::breakthrough::4::自然馈赠":{"tag_4c4ke2":"auto"},"圣剑波克士::passive::1::招架之艺":{"tag_1xr75m":"auto"},"静流::breakthrough::4::绝境强袭":{"tag_1krp239":"auto"},"马吉拉·星仪::active::B::塔":{"tag_xc7s9m":"manual","tag_it5sim":"manual","tag_180xtl5":"manual","tag_1khehum":"manual","tag_yijz41":"manual","tag_lvzfeq":"manual","tag_1cjpb6b":"manual"},"伊卡菈::breakthrough::1::亘古之脉":{"tag_xc7s9m":"manual","tag_lvzfeq":"manual","tag_1cjpb6b":"manual"},"卡塔斯::active::S-0::链之间·壹":{"tag_xc7s9m":"manual","tag_lhbhj1":"manual","tag_lvzfeq":"manual","tag_1cjpb6b":"manual"},"卡塔斯::active::S-1::链之间·贰":{"tag_xc7s9m":"manual","tag_lhbhj1":"manual","tag_lvzfeq":"manual","tag_1cjpb6b":"manual"},"卡塔斯::active::S-2::链之间·叁":{"tag_xc7s9m":"manual","tag_lhbhj1":"manual","tag_lvzfeq":"manual","tag_1cjpb6b":"manual"},"帕拉笛::breakthrough::5::蓝火":{"tag_xc7s9m":"manual"},"帕拉笛::active::S::高压镇暴":{"tag_xc7s9m":"manual","tag_g9yy0q":"manual","tag_7f7tx6":"manual","tag_l8jnua":"manual"},"涟::breakthrough::1::夜啼悲歌":{"tag_t7qe65":"manual","tag_1o8wu92":"manual","tag_1yl57kj":"manual","tag_l745i0":"manual"},"夏尔::breakthrough::5::混乱攻势":{"tag_t7qe65":"manual","tag_11l4z33":"manual","tag_1o8wu92":"manual","tag_vrj6xd":"manual","tag_1m18o4b":"manual","tag_oaw15n":"manual","tag_qywrwy":"manual","tag_1yl57kj":"manual"},"夏尔::active::S::MEGA混沌加农":{"tag_t7qe65":"manual","tag_11l4z33":"manual","tag_1o8wu92":"manual","tag_vrj6xd":"manual","tag_1m18o4b":"manual","tag_oaw15n":"manual","tag_qywrwy":"manual","tag_1yl57kj":"manual"},"莱格宝宝::active::S::MEGA混沌加农":{"tag_t7qe65":"manual","tag_11l4z33":"manual","tag_1o8wu92":"manual","tag_vrj6xd":"manual","tag_1m18o4b":"manual","tag_oaw15n":"manual","tag_qywrwy":"manual","tag_1yl57kj":"manual"},"亚莉奈::active::S::“苹果”":{"tag_pbllk8":"manual"},"泳装静流::breakthrough::1::涟漪":{"tag_1j601h3":"manual","tag_1ptfe5f":"manual","tag_1u644ir":"manual","tag_62ninf":"manual"},"无名::active::S::浮光连舞":{"tag_1qq4sim":"manual","tag_g9yy0q":"manual","tag_c7i44u":"manual"},"生驹::active::S::爆裂射击":{"tag_1qq4sim":"manual","tag_g9yy0q":"manual","tag_c7i44u":"manual"},"拉妲::active::S::雷霆闪击":{"tag_1r99z":"manual","tag_1v3iwg9":"manual"},"真咲::breakthrough::2::恋人":{"tag_1q0zqnl":"manual","tag_1763oo3":"manual","tag_1y7akxb":"manual","tag_nu886x":"manual"},"马吉拉·星仪::breakthrough::2::恋人":{"tag_1q0zqnl":"manual","tag_1763oo3":"manual","tag_1y7akxb":"manual","tag_nu886x":"manual"},"金子小姐::active::S::金子攻势":{"tag_17b08c9":"manual","tag_19vs4nw":"manual","tag_1o2mhp8":"manual","tag_1ibftnz":"manual"},"佩罗塔::active::S-0::蓄电磁场":{"tag_17b08c9":"manual","tag_19vs4nw":"manual","tag_1o2mhp8":"manual","tag_1ibftnz":"manual"},"晃::breakthrough::2::急冻":{"tag_180xtl5":"manual"},"薇尔岚::active::S::食梦":{"tag_zjrasu":"manual"},"伊利亚德::active::S::冬去时":{"tag_1tlc8wg":"manual","tag_g9yy0q":"manual","tag_7f7tx6":"manual","tag_c7i44u":"manual"},"苏恩::breakthrough::5::真念":{"tag_g294tw":"manual"},"苏恩::breakthrough::4::琉璃":{"tag_eqllv3":"manual"},"约书亚::passive::4::索取":{"tag_eqllv3":"manual"},"罗洁尔::active::C::圣痕":{"tag_1pzyitf":"manual"},"那由他::breakthrough::5::“无量”":{"tag_8extj5":"manual"},"瑞瓦::passive::5::恶果之地":{"tag_8extj5":"manual"},"无名::passive::4::卡巴内瑞之力":{"tag_8extj5":"manual","tag_55ovvu":"manual"},"夏尔::passive::5::呐呐呐~呐~":{"tag_8extj5":"manual","tag_55ovvu":"manual"},"夏洛蒂::passive::4::顽强":{"tag_8extj5":"manual"},"雅莱::passive::2::馈赠":{"tag_8extj5":"manual"},"伊卡菈::passive::2::永劫之鳞":{"tag_8extj5":"manual"},"生驹::passive::4::卡巴内瑞之力":{"tag_8extj5":"manual","tag_55ovvu":"manual"},"海伦娜::passive::2::琳琅":{"tag_8extj5":"manual"},"苔妮::breakthrough::1::磁冷":{"tag_1khehum":"manual"},"苔妮::breakthrough::5::冰裂":{"tag_1khehum":"manual"},"伊尔::breakthrough::4::蜂群协议":{"tag_kdym4q":"manual"},"卡洛琳::breakthrough::4::雷云协议":{"tag_kdym4q":"manual"},"莱卡吉亚::active::S::机械狼群":{"tag_19ivq3f":"manual","tag_g9yy0q":"manual","tag_7f7tx6":"manual","tag_1ez1ec1":"manual"},"跳鼠::breakthrough::1::剑舞":{"tag_g9yy0q":"manual"},"丽桑德拉::active::S::星落":{"tag_g9yy0q":"manual","tag_c7i44u":"manual"},"霖::breakthrough::1::剑舞":{"tag_g9yy0q":"manual"},"魇::breakthrough::1::剑舞":{"tag_g9yy0q":"manual"},"索玛::active::S-0::血噬":{"tag_g9yy0q":"manual","tag_1vtg0tr":"manual","tag_l8jnua":"manual","tag_zj2gyu":"manual","tag_c7i44u":"manual"},"斯洛卡伊::active::S::机神咆哮":{"tag_g9yy0q":"manual","tag_7f7tx6":"manual","tag_c7i44u":"manual"},"伊洛娜::active::S::狙杀模式":{"tag_g9yy0q":"manual"},"柯娜::active::S-2::新星冲击":{"tag_g9yy0q":"manual","tag_a6m8pf":"manual"},"蒂丝塔尔::breakthrough::2::朝露凝萃":{"tag_g9yy0q":"manual","tag_1uvyz8u":"manual","tag_t0gdkr":"manual"},"遥::active::S-0::《我会在这里》":{"tag_g9yy0q":"manual"},"伽罗尔::breakthrough::2::帽子戏法":{"tag_1elpe0l":"manual"},"埃泽拉::passive::3::执著":{"tag_1elpe0l":"manual"},"约书亚::passive::5::炽烈":{"tag_1elpe0l":"manual"},"涟::breakthrough::2::“终焉毁灭者”":{"tag_fgr3uz":"manual"},"魇::active::S::秘剑·岩铁两断":{"tag_fgr3uz":"manual"},"隼::breakthrough::1::刺杀术":{"tag_fgr3uz":"manual"},"乌刹娜::breakthrough::4::新生":{"tag_1gwxwyw":"manual"},"柯娜::breakthrough::4::崩星":{"tag_1o8wu92":"manual"},"罗洁尔::breakthrough::1::灵感":{"tag_jm0i1e":"manual"},"乌刹娜::breakthrough::1::灵感":{"tag_jm0i1e":"manual"},"约书亚::breakthrough::1::灵感":{"tag_jm0i1e":"manual"},"克洛伊::breakthrough::1::灵感":{"tag_jm0i1e":"manual"},"达斯廷::breakthrough::5::流转":{"tag_1vtg0tr":"manual"},"黛丝莉::breakthrough::5::流转":{"tag_1vtg0tr":"manual"},"冯里奈::breakthrough::5::流转":{"tag_1vtg0tr":"manual"},"莉薇娅::breakthrough::5::流转":{"tag_1vtg0tr":"manual"},"索玛::breakthrough::5::血裔":{"tag_1vtg0tr":"manual"},"菲妮娅::breakthrough::5::流转":{"tag_1vtg0tr":"manual"},"斯洛卡伊::breakthrough::2::钻心":{"tag_7f7tx6":"manual"},"伊利亚德::passive::5::海潮如梦":{"tag_7f7tx6":"manual"},"帕拉笛::breakthrough::1::灵活部署":{"tag_7f7tx6":"manual"},"罗洁尔·定格::breakthrough::4::星核":{"tag_1tf58li":"manual","tag_p2ixco":"manual"},"柯娜::active::S-0::巨像战阵":{"tag_a6m8pf":"manual"},"柯娜::active::S-1::巨像战阵II":{"tag_a6m8pf":"manual"},"伽罗尔::passive::1::先手":{"tag_yypvzv":"manual"},"跳鼠::passive::1::先之先":{"tag_yypvzv":"manual"},"多萝西::passive::1::见面礼！":{"tag_yypvzv":"manual"},"莱卡吉亚::passive::1::战术掩护":{"tag_yypvzv":"manual"},"遥::passive::2::《镜中人》":{"tag_yypvzv":"manual"},"海因里希::passive::1::战术推进":{"tag_yypvzv":"manual"},"真咲::active::S::恶魔":{"tag_59stzn":"manual"},"安菲娅::active::S::深藏若虚之棺":{"tag_59stzn":"manual"},"闻笙::passive::2::冷静":{"tag_kedrj2":"manual"},"苏恩::breakthrough::2::无心":{"tag_kedrj2":"manual"},"星花::passive::1::活力":{"tag_kedrj2":"manual"},"阿知波::active::S::无明":{"tag_kedrj2":"manual"},"卡塔斯::breakthrough::1::狂战":{"tag_kedrj2":"manual"},"瓦伦汀::passive::4::牵绊":{"tag_1cjpb6b":"manual"},"卡莱雅::breakthrough::2::助燃":{"tag_1cjpb6b":"manual"},"斯洛卡伊::breakthrough::1::荆棘王座":{"tag_t0gdkr":"manual"},"乌刹娜::passive::1::怒相":{"tag_t0gdkr":"manual"},"真咲::passive::2::倒吊人":{"tag_ltdd5j":"manual"},"真咲::active::B::战车":{"tag_ltdd5j":"manual"},"伊卡菈::breakthrough::2::律动之息":{"tag_ltdd5j":"manual"},"迪妮莎::breakthrough::1::杀意":{"tag_ltdd5j":"manual"},"甘雅::passive::2::镇定":{"tag_13f1w1r":"manual"},"甘雅::passive::5::饱和攻击":{"tag_13f1w1r":"manual"},"甘雅::active::S::回旋飞斧":{"tag_13f1w1r":"manual"},"多萝西::passive::5::再见拥抱！":{"tag_13f1w1r":"manual"},"瑞瓦::breakthrough::1::舍取":{"tag_13f1w1r":"manual"},"瑞瓦::passive::2::梭哈":{"tag_13f1w1r":"manual"},"瑞瓦::active::B-3::虚妄的呼唤":{"tag_13f1w1r":"manual"},"伊索斯::breakthrough::4::置换疗法":{"tag_13f1w1r":"manual"},"菲妮娅::active::S::致胜闪耀":{"tag_13f1w1r":"manual"},"朵拉弥丝::active::S-0::绞缠":{"tag_1bddum6":"manual"},"沃斯托克::breakthrough::2::姿态调整":{"tag_1bddum6":"manual"},"蒂丝塔尔::breakthrough::5::浮光跃金":{"tag_1bddum6":"manual","tag_rzuxtt":"manual"},"蒂丝塔尔::active::S::纯白圣域":{"tag_1bddum6":"manual","tag_rzuxtt":"manual"},"海伦娜::active::A::流光":{"tag_1bddum6":"manual"},"罗洁尔::active::B::序言":{"tag_1cilc9v":"manual"},"罗洁尔::active::S::审判":{"tag_1cilc9v":"manual"},"约书亚::breakthrough::4::新生":{"tag_1cilc9v":"manual"},"克洛伊::breakthrough::4::新生":{"tag_1cilc9v":"manual"},"约书亚::passive::1::涌动":{"tag_zj2gyu":"manual"},"卡塔斯::breakthrough::4::魔剑主":{"tag_zj2gyu":"manual"},"甘雅::passive::4::机械师":{"tag_rzuxtt":"manual"},"妮蔻拉::active::S::火力全开":{"tag_nwa2pu":"manual"},"雅莱::passive::1::“看不见的朋友”":{"tag_nwa2pu":"manual"},"安菲娅::breakthrough::1::解构":{"tag_nwa2pu":"manual"},"多萝西::active::S::大暴走":{"tag_1v3iwg9":"manual"},"奈弥::breakthrough::4::双极乱心":{"tag_1yl57kj":"manual","tag_l745i0":"manual"},"奈弥::active::S::无相·鸾回麟返":{"tag_1yl57kj":"manual","tag_l745i0":"manual"},"塞西尔::active::S::迷心弹":{"tag_l745i0":"manual"}}};
+let mode = sessionStorage.getItem(modeKey) || 'basic';
+let currentHref = '';
+let focusTagTargetId = '';
+let tagDownloadSequence = 0;
+let editingTagId = '';
 function hrefFromHash(){
   const hash = decodeURIComponent(location.hash || '');
   return hash.startsWith('#characters/') ? hash.slice(1) : 'characters/_E9_82_A3_E7_94_B1_E4_BB_96.html';
 }
+function escapeHtml(value){
+  return String(value ?? '').replace(/[&<>"']/g, (ch) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function plainText(html){
+  const div = document.createElement('div');
+  div.innerHTML = html || '';
+  return (div.textContent || '').trim();
+}
+function loadTagStore(){
+  try {
+    const parsed = JSON.parse(localStorage.getItem(tagStoreKey) || '');
+    if (parsed && parsed.tagDictionary && parsed.assignments) {
+      if (!parsed.assignmentSources) parsed.assignmentSources = {};
+      return parsed;
+    }
+  } catch(e) {}
+  return JSON.parse(JSON.stringify(defaultTagStore));
+}
+let tagStore = loadTagStore();
+function saveTagStore(){
+  localStorage.setItem(tagStoreKey, JSON.stringify(tagStore));
+}
+function normalizeTag(label){
+  return String(label || '').trim().replace(/\s+/g, ' ').toLowerCase();
+}
+function hashText(text){
+  let hash = 2166136261;
+  for (const ch of text) {
+    hash ^= ch.codePointAt(0);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(36);
+}
+function findTag(label){
+  const normalized = normalizeTag(label);
+  return tagStore.tagDictionary.find((tag) => normalizeTag(tag.label) === normalized || (tag.aliases || []).some((alias) => normalizeTag(alias) === normalized));
+}
+function ensureTag(label){
+  const clean = String(label || '').trim().replace(/\s+/g, ' ');
+  if (!clean) return null;
+  const found = findTag(clean);
+  if (found) return found;
+  const tag = { id: 'tag_' + hashText(clean), label: clean, aliases: [], category: '', description: '' };
+  while (tagStore.tagDictionary.some((item) => item.id === tag.id)) tag.id = 'tag_' + hashText(clean + '_' + tagStore.tagDictionary.length);
+  tagStore.tagDictionary.push(tag);
+  tagStore.tagDictionary.sort((a, b) => a.label.localeCompare(b.label, 'ko'));
+  saveTagStore();
+  return tag;
+}
+function targetId(target){
+  return [target.characterCN, target.sectionKey, target.slot, target.nameCN || target.nameKR].join('::');
+}
+function tagById(id){
+  return tagStore.tagDictionary.find((tag) => tag.id === id);
+}
+function tagSource(targetIdValue, tagId){
+  return tagStore.assignmentSources?.[targetIdValue]?.[tagId] || 'manual';
+}
+function setTagSource(targetIdValue, tagId, source){
+  if (!tagStore.assignmentSources) tagStore.assignmentSources = {};
+  if (!tagStore.assignmentSources[targetIdValue]) tagStore.assignmentSources[targetIdValue] = {};
+  tagStore.assignmentSources[targetIdValue][tagId] = source;
+}
+function hasHangul(value){
+  return /[가-힣]/.test(String(value || ''));
+}
+function hasCjk(value){
+  return /[㐀-鿿豈-﫿]/.test(String(value || ''));
+}
+function isUntranslatedCandidateLabel(value){
+  const text = String(value || '').trim();
+  return hasCjk(text) && !hasHangul(text);
+}
+function damageTypeLabel(rawType){
+  const clean = String(rawType || '').trim().replace(/s+/g, ' ');
+  const map = {
+    '电磁': '전자기',
+    '火焰': '화염',
+    '冰冻': '얼음',
+    '混响': '잔향',
+    '负能': '음에너지',
+    '斩裂': '참격',
+    '物理': '물리',
+    '虚光': '허광',
+    '龙': '용',
+    '精神': '정신',
+    '爆音': '폭음',
+  };
+  return map[clean] || clean;
+}
+function extractDamageTypeTags(target){
+  const text = [target.detailKR, target.detailCN, target.descriptionKR, target.descriptionCN].filter(Boolean).join('\n');
+  const tags = new Set();
+  const regex = new RegExp('\\d+(?:\\.\\d+)?\\s*%\\s*[（(]\\s*([^）)；;、,，\\n]+)\\s*[）)]', 'g');
+  let match;
+  while ((match = regex.exec(text))) {
+    const type = damageTypeLabel(match[1]);
+    if (type) tags.add(type.endsWith('피해') ? type : type + ' 피해');
+  }
+  return [...tags];
+}
+function applyDamageTypeTags(){
+  if (tagStore.autoDamageTypeTagsVersion === 1) return;
+  let changed = false;
+  for (const href of Object.keys(pages)) {
+    const parsed = parseCharacterPage(href);
+    for (const target of parsed.targets) {
+      if (target.sectionKey !== 'active') continue;
+      const labels = extractDamageTypeTags(target);
+      if (!labels.length) continue;
+      const current = tagStore.assignments[target.id] || [];
+      for (const label of labels) {
+        const tag = ensureTag(label);
+        if (tag && !current.includes(tag.id)) {
+          current.push(tag.id);
+          setTagSource(target.id, tag.id, 'auto');
+          changed = true;
+        }
+      }
+      tagStore.assignments[target.id] = current;
+    }
+  }
+  tagStore.autoDamageTypeTagsVersion = 1;
+  saveTagStore();
+}
+function usedTagIds(){
+  return new Set(Object.values(tagStore.assignments).flat());
+}
+function tagUsageCounts(){
+  const counts = new Map();
+  for (const ids of Object.values(tagStore.assignments)) {
+    for (const id of ids) counts.set(id, (counts.get(id) || 0) + 1);
+  }
+  return counts;
+}
+function tagUsageCount(tagId){
+  let count = 0;
+  for (const ids of Object.values(tagStore.assignments)) {
+    for (const id of ids) if (id === tagId) count += 1;
+  }
+  return count;
+}
+function tagAutoUsageCounts(){
+  const counts = new Map();
+  for (const [targetIdValue, sourceMap] of Object.entries(tagStore.assignmentSources || {})) {
+    for (const [tagId, source] of Object.entries(sourceMap || {})) {
+      if (source === 'auto' && (tagStore.assignments[targetIdValue] || []).includes(tagId)) {
+        counts.set(tagId, (counts.get(tagId) || 0) + 1);
+      }
+    }
+  }
+  return counts;
+}
+function tagUsages(tagId){
+  const rows = [];
+  for (const href of Object.keys(pages)) {
+    const parsed = parseCharacterPage(href);
+    for (const target of parsed.targets) {
+      if ((tagStore.assignments[target.id] || []).includes(tagId)) rows.push(target);
+    }
+  }
+  return rows.sort((a, b) => {
+    const characterCompare = (a.characterKR || a.characterCN).localeCompare(b.characterKR || b.characterCN, 'ko');
+    if (characterCompare) return characterCompare;
+    const sectionOrder = { breakthrough: 1, passive: 2, active: 3 };
+    const sectionCompare = (sectionOrder[a.sectionKey] || 9) - (sectionOrder[b.sectionKey] || 9);
+    if (sectionCompare) return sectionCompare;
+    return String(a.slot).localeCompare(String(b.slot), 'ko', { numeric: true });
+  });
+}
+function clearTagResult(){
+  sessionStorage.removeItem(tagResultKey);
+}
+function taggedCharacters(){
+  const set = new Set();
+  for (const [id, tags] of Object.entries(tagStore.assignments || {})) {
+    const hasManual = (tags || []).some((tagId) => tagSource(id, tagId) !== 'auto');
+    if (hasManual) set.add(id.split('::')[0]);
+  }
+  return set;
+}
+function targetText(target){
+  const korean = [target.nameKR, target.descriptionKR, target.detailKR].filter(Boolean).join('\n').trim();
+  if (korean) return korean;
+  return [target.nameCN, target.descriptionCN, target.detailCN].filter(Boolean).join('\n');
+}
+let currentAutoOmittedCandidates = null;
+function rememberOmittedAutoCandidate(label, target, pattern, extraLabel){
+  if (!currentAutoOmittedCandidates) return;
+  const clean = String(label || '').trim().replace(/\s+/g, ' ');
+  if (!clean) return;
+  if (!currentAutoOmittedCandidates.has(clean)) currentAutoOmittedCandidates.set(clean, { label: clean, targets: [], patterns: new Map() });
+  const item = currentAutoOmittedCandidates.get(clean);
+  if (!item.targets.some((row) => row.id === target.id)) {
+    item.targets.push({ id: target.id, href: target.href, characterKR: target.characterKR, characterCN: target.characterCN, sectionLabel: target.sectionLabel, sectionKey: target.sectionKey, slot: target.slot, nameKR: target.nameKR, nameCN: target.nameCN, pattern, extraLabel });
+  }
+  item.patterns.set(pattern, (item.patterns.get(pattern) || 0) + 1);
+}
+function addCandidate(candidates, label, target, pattern, extraLabel){
+  const clean = String(label || '').trim().replace(/\s+/g, ' ');
+  if (!clean || clean.length > 24) return;
+  if (hiddenAutoCandidates().has(clean)) return;
+  if (isUntranslatedCandidateLabel(clean)) {
+    rememberOmittedAutoCandidate(clean, target, pattern, extraLabel);
+    return;
+  }
+  const key = clean;
+  if (!candidates.has(key)) candidates.set(key, { label: clean, targets: [], patterns: new Map() });
+  const item = candidates.get(key);
+  if (!item.targets.some((row) => row.id === target.id)) {
+    item.targets.push({ id: target.id, href: target.href, characterKR: target.characterKR, characterCN: target.characterCN, sectionLabel: target.sectionLabel, sectionKey: target.sectionKey, slot: target.slot, nameKR: target.nameKR, nameCN: target.nameCN, pattern, extraLabel });
+  }
+  item.patterns.set(pattern, (item.patterns.get(pattern) || 0) + 1);
+}
+function hiddenAutoCandidates(){
+  try {
+    return new Set(JSON.parse(sessionStorage.getItem('resonance.hiddenAutoCandidates') || '[]'));
+  } catch(e) {
+    return new Set();
+  }
+}
+function hideAutoCandidate(label){
+  const hidden = hiddenAutoCandidates();
+  hidden.add(String(label || '').trim().replace(/\s+/g, ' '));
+  sessionStorage.setItem('resonance.hiddenAutoCandidates', JSON.stringify([...hidden]));
+  render(currentHref, false);
+}
+function manualTagPatternLabels(){
+  const labels = new Set();
+  for (const [targetIdValue, ids] of Object.entries(tagStore.assignments || {})) {
+    for (const tagId of ids || []) {
+      if (tagSource(targetIdValue, tagId) === 'auto') continue;
+      const tag = tagById(tagId);
+      if (tag?.label) labels.add(tag.label);
+    }
+  }
+  return [...labels];
+}
+function escapeRegExpText(value){
+  return String(value || '').replace(/[.*+?^\x24{}()|[\]\\]/g, '\$&');
+}
+function manualPatternRegex(label){
+  const clean = String(label || '').trim();
+  const escaped = escapeRegExpText(clean).replace(/\s+/g, '\s*');
+  const variants = [escaped];
+  if (clean.endsWith(' 증가')) {
+    const base = escapeRegExpText(clean.slice(0, -3).trim()).replace(/\s+/g, '\s*');
+    variants.push(base + '(?:이|가|을|를)?\s*(?:[+＋]?\s*[\d.]+%?\s*)?(?:증가|상승|높아|올라)');
+  }
+  if (clean.endsWith(' 감소')) {
+    const base = escapeRegExpText(clean.slice(0, -3).trim()).replace(/\s+/g, '\s*');
+    variants.push(base + '(?:이|가|을|를)?\s*(?:[\d.]+%?\s*)?(?:감소|하락|낮아)');
+  }
+  if (clean.endsWith(' 피해 증가')) {
+    const base = escapeRegExpText(clean.slice(0, -6).trim()).replace(/\s+/g, '\s*');
+    variants.push(base + '\s*피해(?:가|를|량)?\s*(?:[\d.]+%?\s*)?(?:증가|상승|높아)');
+  }
+  return new RegExp(variants.join('|'), 'i');
+}
+function excludedAutoTagCharacters(){
+  const set = new Set();
+  for (const link of links) {
+    const href = link.dataset.href || '';
+    if (!href) continue;
+    const parsed = parseCharacterPage(href);
+    const isUnreleased = !!link.querySelector('.pill.unreleased');
+    const isLevis = parsed.characterCN === '雷比斯' || parsed.characterKR === '레비스';
+    if (!isUnreleased && !isLevis) continue;
+    if (parsed.characterCN) set.add(parsed.characterCN);
+    if (parsed.characterKR) set.add(parsed.characterKR);
+  }
+  return set;
+}
+function extractAutoTagCandidates(){
+  const candidates = new Map();
+  const omitted = new Map();
+  currentAutoOmittedCandidates = omitted;
+  const skipCharacters = taggedCharacters();
+  const excludedCharacters = excludedAutoTagCharacters();
+  let scannedTargets = 0;
+  let skippedCharacters = 0;
+  let excludedCharactersCount = 0;
+  const statusPatterns = [
+    { name: '부여', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*부여/g },
+    { name: '발동', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*발동/g },
+    { name: '상태', re: /\[([^\]\n]{1,24})\]\s*상태/g },
+    { name: '시킵니다/합니다', re: /\[([^\]\n]{1,24})\](?:시킵니다|합니다|됩니다)/g },
+  ];
+  const objectPatterns = [
+    { name: '생성', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*생성/g },
+    { name: '획득', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*획득/g },
+    { name: '추가', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*추가/g },
+    { name: '제거', re: /\[([^\]\n]{1,24})\](?:을|를)?\s*제거/g },
+  ];
+  for (const href of Object.keys(pages)) {
+    const parsed = parseCharacterPage(href);
+    if (excludedCharacters.has(parsed.characterCN) || excludedCharacters.has(parsed.characterKR)) {
+      excludedCharactersCount += 1;
+      continue;
+    }
+    if (skipCharacters.has(parsed.characterCN) || skipCharacters.has(parsed.characterKR)) {
+      skippedCharacters += 1;
+      continue;
+    }
+    for (const target of parsed.targets) {
+      if ((tagStore.assignments[target.id] || []).length) continue;
+      scannedTargets += 1;
+      const text = targetText(target);
+      if (!text) continue;
+      for (const label of manualTagPatternLabels()) {
+        if (manualPatternRegex(label).test(text)) addCandidate(candidates, label, target, '수동태그 패턴');
+      }
+      const bracketRe = new RegExp('\\[([^\\]\\n]{1,24})\\]', 'g');
+      let bracket;
+      while ((bracket = bracketRe.exec(text))) addCandidate(candidates, bracket[1], target, '괄호 용어');
+      for (const pattern of statusPatterns) {
+        pattern.re.lastIndex = 0;
+        let match;
+        while ((match = pattern.re.exec(text))) addCandidate(candidates, match[1], target, pattern.name);
+      }
+      for (const pattern of objectPatterns) {
+        pattern.re.lastIndex = 0;
+        let match;
+        while ((match = pattern.re.exec(text))) addCandidate(candidates, match[1], target, pattern.name);
+      }
+      const summonRe = /\[([^\]\n]{1,24})\](?:을|를)?\s*소환/g;
+      let summon;
+      while ((summon = summonRe.exec(text))) {
+        addCandidate(candidates, '소환물', target, '소환', summon[1]);
+        addCandidate(candidates, summon[1], target, '소환');
+      }
+      const classRe = /\[[^\]\n]{1,24}\](?:은|는)\s*\[([^\]\n]{1,24})\](?:입니다|이다|피해|분류)/g;
+      let classMatch;
+      while ((classMatch = classRe.exec(text))) addCandidate(candidates, classMatch[1], target, '분류');
+      const damageRe = /\d+(?:\.\d+)?\s*%\s*[（(]\s*([^）)\n]{1,16})\s*[）)]/g;
+      let damage;
+      while ((damage = damageRe.exec(text))) addCandidate(candidates, damageTypeLabel(damage[1]) + ' 피해', target, '피해타입');
+      const textRules = [
+        { label: '지속시간 증가', re: /지속\s*시간(?:이|을)?\s*(?:[\d.]+초\s*)?(?:증가|늘|연장)|持续时间.*(?:增加|延长)|延长.*持续/g },
+        { label: '공격력 증가', re: /공격력(?:이|을)?\s*[+＋]?\s*\d|공격력.*(?:증가|상승)|攻击力.*(?:增加|提高)|攻击力\s*[+＋]/g },
+        { label: '방어력 증가', re: /방어력(?:이|을)?\s*[+＋]?\s*\d|방어력.*(?:증가|상승)|防御力.*(?:增加|提高)|防御力\s*[+＋]/g },
+      ];
+      for (const rule of textRules) if (rule.re.test(text)) addCandidate(candidates, rule.label, target, '수동패턴 참고');
+      const damageIncreaseRe = /([가-힣A-Za-z\u4e00-\u9fff/]+)\s*피해(?:가|를|량|)?\s*(?:[\d.]+%\s*)?(?:증가|상승)|([火焰冰冻电磁混响物理虚光龙精神爆音斩裂负能/]+)\s*伤害.*(?:增加|提高)/g;
+      let inc;
+      while ((inc = damageIncreaseRe.exec(text))) {
+        const raw = inc[1] || inc[2] || '';
+        const label = raw.split('/').map((part) => damageTypeLabel(part)).join('/') + ' 피해 증가';
+        addCandidate(candidates, label, target, '피해 증가');
+      }
+      const createPlainRe = /([가-힣A-Za-z0-9·\u4e00-\u9fff ]{1,24})(?:을|를)?\s*(?:\d+장\s*)?(?:생성|소환|발동|부여|획득|추가|제거)|(?:生成|召唤|触发|获得|加入|移除)\s*([가-힣A-Za-z0-9·\u4e00-\u9fff ]{1,24})/g;
+      let plain;
+      while ((plain = createPlainRe.exec(text))) {
+        const label = (plain[1] || plain[2] || '').trim();
+        if (label) addCandidate(candidates, label, target, '비괄호 동작');
+      }
+    }
+  }
+  const rows = [...candidates.values()].sort((a, b) => b.targets.length - a.targets.length || a.label.localeCompare(b.label, 'ko'));
+  const omittedRows = [...omitted.values()].sort((a, b) => b.targets.length - a.targets.length || a.label.localeCompare(b.label, 'ko'));
+  rows.meta = { skippedCharacters, excludedCharactersCount, scannedTargets, omittedCandidates: omittedRows };
+  currentAutoOmittedCandidates = null;
+  return rows;
+}
+function markTagManual(tagId){
+  for (const [targetIdValue, ids] of Object.entries(tagStore.assignments || {})) {
+    if (!ids.includes(tagId)) continue;
+    setTagSource(targetIdValue, tagId, 'manual');
+  }
+}
+function mergeTagIds(fromId, toId, source = 'manual'){
+  for (const [targetIdValue, ids] of Object.entries(tagStore.assignments || {})) {
+    if (!ids.includes(fromId)) continue;
+    const next = [];
+    for (const id of ids) {
+      const resolved = id === fromId ? toId : id;
+      if (!next.includes(resolved)) next.push(resolved);
+    }
+    tagStore.assignments[targetIdValue] = next;
+    if (tagStore.assignmentSources?.[targetIdValue]) delete tagStore.assignmentSources[targetIdValue][fromId];
+    setTagSource(targetIdValue, toId, source);
+  }
+  tagStore.tagDictionary = tagStore.tagDictionary.filter((tag) => tag.id !== fromId);
+}
+function deleteTagEverywhere(tagId){
+  for (const [targetIdValue, ids] of Object.entries(tagStore.assignments || {})) {
+    tagStore.assignments[targetIdValue] = ids.filter((id) => id !== tagId);
+    if (tagStore.assignmentSources?.[targetIdValue]) delete tagStore.assignmentSources[targetIdValue][tagId];
+  }
+  tagStore.tagDictionary = tagStore.tagDictionary.filter((tag) => tag.id !== tagId);
+}
+function openTagEditor(tagId){
+  editingTagId = tagId;
+  renderTagModal();
+}
+function closeTagEditor(){
+  editingTagId = '';
+  document.querySelector('.tag-modal-backdrop')?.remove();
+}
+function renderTagModal(){
+  document.querySelector('.tag-modal-backdrop')?.remove();
+  const tag = tagById(editingTagId);
+  if (!tag) return;
+  const count = tagUsageCount(tag.id);
+  const autoCount = tagAutoUsageCounts().get(tag.id) || 0;
+  const modal = document.createElement('div');
+  modal.className = 'tag-modal-backdrop';
+  modal.innerHTML = '<div class="tag-modal" role="dialog" aria-modal="true" aria-label="태그 수정"><h3>태그 수정</h3><p class="tag-muted">이 태그는 총 <strong>' + count + '</strong>건에 사용 중입니다.' + (autoCount ? ' 자동 추가 ' + autoCount + '건이 포함되어 있습니다.' : '') + '</p><label for="tagModalLabel">태그명</label><input id="tagModalLabel" type="text" value="' + escapeHtml(tag.label) + '"><div class="tag-modal-actions"><button type="button" id="tagModalUsages">사용 항목 보기</button><button type="button" class="danger" id="tagModalDelete">해당 태그 일괄삭제</button><button type="button" id="tagModalCancel">취소</button><button type="button" class="primary" id="tagModalSave">저장</button></div></div>';
+  document.body.appendChild(modal);
+  requestAnimationFrame(() => document.getElementById('tagModalLabel')?.focus());
+}
+function saveTagEditor(){
+  const tag = tagById(editingTagId);
+  if (!tag) return;
+  const input = document.getElementById('tagModalLabel');
+  const nextLabel = String(input?.value || '').trim().replace(/s+/g, ' ');
+  if (!nextLabel) return alert('태그명을 입력해주세요.');
+  const existing = findTag(nextLabel);
+  if (existing && existing.id !== tag.id) {
+    const count = tagUsageCount(tag.id);
+    if (!confirm('같은 이름의 태그가 이미 있습니다. 현재 태그 ' + count + '건을 기존 태그로 병합할까요?')) return;
+    mergeTagIds(tag.id, existing.id, 'manual');
+    editingTagId = existing.id;
+  } else {
+    tag.label = nextLabel;
+    markTagManual(tag.id);
+  }
+  tagStore.tagDictionary.sort((a, b) => a.label.localeCompare(b.label, 'ko'));
+  saveTagStore();
+  closeTagEditor();
+  render(currentHref, false);
+}
+function deleteEditingTag(){
+  const tag = tagById(editingTagId);
+  if (!tag) return;
+  const count = tagUsageCount(tag.id);
+  if (!confirm('총 ' + count + '건에서 [' + tag.label + '] 태그가 삭제됩니다. 계속할까요?')) return;
+  deleteTagEverywhere(tag.id);
+  saveTagStore();
+  closeTagEditor();
+  render(currentHref, false);
+}
+function pruneUnusedTags(){
+  const used = usedTagIds();
+  const before = tagStore.tagDictionary.length;
+  tagStore.tagDictionary = tagStore.tagDictionary.filter((tag) => used.has(tag.id));
+  saveTagStore();
+  render(currentHref, false);
+  return before - tagStore.tagDictionary.length;
+}
+function parseCharacterPage(href){
+  const html = pages[href] || '';
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const title = doc.querySelector('h2');
+  const characterKR = title?.childNodes?.[0]?.textContent?.trim() || '';
+  const characterCN = title?.querySelector('.sub')?.textContent?.trim() || '';
+  const targets = [];
+  function sectionMeta(titleText, index){
+    const text = String(titleText || '');
+    if (text.includes('돌파') || text.includes('突破')) return { key: 'breakthrough', label: '돌파' };
+    if (text.includes('패시브') || text.includes('공명') || text.includes('共振')) return { key: 'passive', label: '패시브/공명' };
+    if (text.includes('액티브') || text.includes('스킬') || text.includes('技能')) return { key: 'active', label: '액티브' };
+    if (index === 1) return { key: 'breakthrough', label: '돌파' };
+    if (index === 2) return { key: 'passive', label: '패시브/공명' };
+    if (index >= 3) return { key: 'active', label: '액티브' };
+    return null;
+  }
+  let dataSectionIndex = 0;
+  for (const section of doc.querySelectorAll('section.panel')) {
+    if (!section.querySelector('tbody tr')) continue;
+    const titleText = section.querySelector('h3')?.textContent?.trim();
+    dataSectionIndex += 1;
+    const meta = sectionMeta(titleText, dataSectionIndex);
+    if (!meta) continue;
+    for (const row of section.querySelectorAll('tbody tr')) {
+      const cells = [...row.querySelectorAll('td')].map((cell) => cell.textContent.trim());
+      if (cells.length < 5) continue;
+      targets.push({
+        id: '',
+        href,
+        characterCN,
+        characterKR,
+        sectionKey: meta.key,
+        sectionLabel: meta.label,
+        slot: cells[0] || '',
+        nameCN: cells[1] || '',
+        nameKR: cells[2] || '',
+        descriptionCN: cells[3] || '',
+        descriptionKR: cells[4] || '',
+        detailCN: cells[5] || '',
+        detailKR: cells[6] || '',
+      });
+    }
+  }
+  for (const target of targets) target.id = targetId(target);
+  return { characterCN, characterKR, targets };
+}
+function updateTabs(){
+  topTabs.forEach((tab) => tab.classList.toggle('active', tab.dataset.mode === mode));
+}
 function render(href, push = true){
   const resolved = pages[href] ? href : 'characters/_E9_82_A3_E7_94_B1_E4_BB_96.html';
-  shell.innerHTML = pages[resolved] || "<main>\n    <section class=\"panel\">\n      <h2>검수용 캐릭터 페이지</h2>\n      <p class=\"pre\">왼쪽에서 캐릭터를 선택하면 돌파 정보, 패시브/공명, 액티브 스킬을 표로 확인할 수 있습니다.\n한문 이름만 표시되는 캐릭터는 한국어 번역명이 원본 한글 언어팩에 없거나 아직 매핑되지 않은 상태입니다.\n액티브 스킬 누락 검수는 00原版의 A/B/S/C 경로를 기준으로 표시합니다.</p>\n    </section>\n    <section class=\"panel\">\n      <h3>액티브 스킬 누락 의심</h3>\n      <p class=\"empty\">누락 의심이 없습니다.</p>\n    </section>\n  </main>";
+  currentHref = resolved;
+  const selectedTagId = sessionStorage.getItem(tagResultKey) || '';
+  shell.innerHTML = mode === 'tags' && selectedTagId ? renderTagResultPage(selectedTagId) : mode === 'tags' ? renderTagPage(resolved) : (pages[resolved] || "<main>\n    <section class=\"panel\">\n      <h2>검수용 캐릭터 페이지</h2>\n      <p class=\"pre\">왼쪽에서 캐릭터를 선택하면 돌파 정보, 패시브/공명, 액티브 스킬을 표로 확인할 수 있습니다.\n한문 이름만 표시되는 캐릭터는 한국어 번역명이 원본 한글 언어팩에 없거나 아직 매핑되지 않은 상태입니다.\n액티브 스킬 누락 검수는 00原版의 A/B/S/C 경로를 기준으로 표시합니다.</p>\n    </section>\n    <section class=\"panel\">\n      <h3>액티브 스킬 누락 의심</h3>\n      <p class=\"empty\">누락 의심이 없습니다.</p>\n    </section>\n  </main>");
   links.forEach((a) => a.classList.toggle('active', a.dataset.href === resolved));
+  updateTabs();
   if (push && location.hash !== '#' + resolved) history.pushState(null, '', '#' + resolved);
+  if (mode === 'tags' && focusTagTargetId) {
+    requestAnimationFrame(() => {
+      const input = shell.querySelector('.tag-card[data-target-id="' + CSS.escape(focusTagTargetId) + '"] [data-tag-input]');
+      if (input) input.focus();
+    });
+  }
   try { if (sidebar) sessionStorage.setItem(scrollKey, String(sidebar.scrollTop)); } catch(e) {}
+}
+function renderTagPage(href){
+  const parsed = parseCharacterPage(href);
+  const searchValue = sessionStorage.getItem('resonance.tagSearch') || '';
+  const typeFilter = sessionStorage.getItem('resonance.tagType') || 'all';
+  let targets = parsed.targets;
+  if (typeFilter !== 'all') targets = targets.filter((target) => target.sectionKey === typeFilter);
+  if (searchValue) {
+    const keyword = searchValue.toLowerCase();
+    targets = targets.filter((target) => [target.slot, target.nameCN, target.nameKR, target.descriptionCN, target.descriptionKR].join(' ').toLowerCase().includes(keyword));
+  }
+  const cards = targets.map(renderTagCard).join('') || '<section class="panel"><p class="empty">표시할 태그 대상이 없습니다.</p></section>';
+  const used = usedTagIds();
+  const usageCounts = tagUsageCounts();
+  const autoUsageCounts = tagAutoUsageCounts();
+  const usedDictionary = tagStore.tagDictionary.filter((tag) => used.has(tag.id));
+  const unusedCount = tagStore.tagDictionary.length - usedDictionary.length;
+  const dictionary = usedDictionary.map((tag) => {
+    const autoCount = autoUsageCounts.get(tag.id) || 0;
+    const title = autoCount ? '이 태그가 쓰인 항목 보기 · 자동 추가 ' + autoCount + '회 포함' : '이 태그가 쓰인 항목 보기';
+    return '<button type="button" class="tag-badge tag-dict-badge ' + (autoCount ? 'auto' : '') + '" data-edit-tag-id="' + escapeHtml(tag.id) + '" title="' + escapeHtml(title) + '">' + escapeHtml(tag.label) + '<span class="tag-count">' + (usageCounts.get(tag.id) || 0) + '</span></button>';
+  }).join('') || '<p class="tag-muted">현재 사용 중인 태그가 없습니다.</p>';
+  const filterButton = (key, label) => '<button type="button" data-type-filter="' + key + '" class="' + (typeFilter === key ? 'active-filter' : '') + '">' + label + '</button>';
+  return '<main><section class="panel"><h2>' + escapeHtml(parsed.characterKR || '태그 추가') + ' <span class="sub">' + escapeHtml(parsed.characterCN) + '</span></h2><div class="tag-toolbar"><input id="tagSearch" type="search" placeholder="현재 캐릭터 항목 검색" value="' + escapeHtml(searchValue) + '">' + filterButton('all', '전체') + filterButton('active', '액티브') + filterButton('passive', '패시브/공명') + filterButton('breakthrough', '돌파') + '<button type="button" id="exportTags">tags.json 내보내기</button><label class="file-button" for="importTags">tags.json 불러오기</label><input class="hidden-file" id="importTags" type="file" accept="application/json,.json"></div><p class="tag-muted">태그는 브라우저에 자동 저장됩니다. GitHub에 반영하려면 내보낸 tags.json을 별도로 보관하거나 다음 배포 때 포함하면 됩니다.</p></section><div class="tag-layout"><div class="tag-list">' + cards + '</div><aside class="tag-side"><h3>태그 사전</h3><div class="tag-dict">' + dictionary + '</div><p class="tag-muted">사용 중인 태그 수: ' + usedDictionary.length + '</p>' + (unusedCount ? '<p class="tag-muted">미사용 태그 수: ' + unusedCount + '</p><button type="button" id="pruneTags">미사용 태그 삭제</button>' : '') + '</aside></div></main>';
+}
+function renderTagResultPage(tagId){
+  const tag = tagById(tagId);
+  if (!tag) {
+    clearTagResult();
+    return renderTagPage(currentHref || hrefFromHash());
+  }
+  const rows = tagUsages(tagId);
+  const cards = rows.map((target) => {
+    const prefix = '<div class="tag-result-title"><a href="#' + escapeHtml(target.href) + '" data-open-character="' + escapeHtml(target.href) + '">' + escapeHtml(target.characterKR || target.characterCN) + '</a><span class="sub">' + escapeHtml(target.characterCN) + '</span></div>';
+    return renderTagCard(target).replace('class="tag-card"', 'class="tag-card tag-result-card"').replace('<div class="tag-card-header">', prefix + '<div class="tag-card-header">');
+  }).join('') || '<section class="tag-result-empty"><p class="empty">이 태그가 사용된 항목이 없습니다.</p></section>';
+  return '<main><section class="panel tag-result-head"><div><h2>태그 검색: ' + escapeHtml(tag.label) + '</h2><p class="tag-muted">총 ' + rows.length + '개 항목에서 사용 중입니다. 결과 카드 안에서 적용된 태그를 바로 추가, 삭제, 정렬할 수 있습니다.</p></div><div class="tag-result-actions"><button type="button" id="backToTagEdit">태그 추가 화면으로 돌아가기</button><button type="button" id="showBasicFromTag">기본 데이터 보기</button></div></section><div class="tag-list">' + cards + '</div></main>';
+}
+function renderTagCard(target){
+  const ids = tagStore.assignments[target.id] || [];
+  const badges = ids.map((id, index) => {
+    const tag = tagById(id);
+    if (!tag) return '';
+    const source = tagSource(target.id, id);
+    const sourceTitle = source === 'auto' ? '자동 추가 태그' : '수동 추가 태그';
+    return '<span class="tag-badge ' + (source === 'auto' ? 'auto' : '') + '" draggable="true" data-target-id="' + escapeHtml(target.id) + '" data-tag-index="' + index + '" data-edit-tag-id="' + escapeHtml(tag.id) + '" title="' + sourceTitle + ' · 클릭해서 태그 수정, 드래그해서 위치 변경"><span>' + escapeHtml(tag.label) + '</span><button type="button" data-remove-tag="1" title="삭제">×</button></span>';
+  }).join('');
+  const desc = [target.descriptionKR, target.detailKR].filter(Boolean).join('\n');
+  const cnDesc = [target.descriptionCN, target.detailCN].filter(Boolean).join('\n');
+  return '<article class="tag-card" data-target-id="' + escapeHtml(target.id) + '"><div class="tag-card-header"><div class="tag-card-title"><span class="tag-type">' + escapeHtml(target.sectionLabel) + '</span><span class="slot">' + escapeHtml(target.slot) + '</span><span class="tag-name">' + escapeHtml(target.nameKR || target.nameCN) + '</span><span class="sub">' + escapeHtml(target.nameCN) + '</span></div></div><div class="tag-desc">' + escapeHtml(desc || cnDesc) + '</div><div class="tag-editor"><input type="text" data-tag-input="1" placeholder="태그 입력: 버리기, 드로우"><button type="button" data-add-tags="1">추가</button></div><div class="tag-added-wrap"><div class="tag-muted">추가된 태그 · 드래그해서 순서 변경</div><div class="tag-badges">' + (badges || '<span class="tag-muted">아직 추가된 태그가 없습니다.</span>') + '</div></div></article>';
+}
+function addTagsToTarget(targetIdValue, raw, keepFocus = true){
+  const labels = String(raw || '').split(/[,\n]/).map((item) => item.trim()).filter(Boolean);
+  if (!labels.length) return;
+  const current = tagStore.assignments[targetIdValue] || [];
+  for (const label of labels) {
+    const tag = ensureTag(label);
+    if (tag && !current.includes(tag.id)) current.push(tag.id);
+    if (tag) setTagSource(targetIdValue, tag.id, 'manual');
+  }
+  tagStore.assignments[targetIdValue] = current;
+  focusTagTargetId = keepFocus ? targetIdValue : '';
+  saveTagStore();
+  render(currentHref, false);
+}
+function removeTag(targetIdValue, index){
+  const current = tagStore.assignments[targetIdValue] || [];
+  const removed = current[index];
+  current.splice(index, 1);
+  tagStore.assignments[targetIdValue] = current;
+  if (removed && tagStore.assignmentSources?.[targetIdValue]) delete tagStore.assignmentSources[targetIdValue][removed];
+  saveTagStore();
+  render(currentHref, false);
+}
+function downloadTags(){
+  const blob = new Blob([JSON.stringify(tagStore, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const now = new Date();
+  const stamp = [
+    now.getFullYear(),
+    String(now.getMonth() + 1).padStart(2, '0'),
+    String(now.getDate()).padStart(2, '0'),
+    '-',
+    String(now.getHours()).padStart(2, '0'),
+    String(now.getMinutes()).padStart(2, '0'),
+    String(now.getSeconds()).padStart(2, '0'),
+  ].join('');
+  tagDownloadSequence += 1;
+  a.href = url;
+  a.download = 'resonance-tags-' + stamp + '-' + String(tagDownloadSequence).padStart(3, '0') + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+function importTags(file){
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const parsed = JSON.parse(String(reader.result || ''));
+      if (!parsed.tagDictionary || !parsed.assignments) throw new Error('invalid tags json');
+      tagStore = { version: 1, tagDictionary: parsed.tagDictionary, assignments: parsed.assignments, assignmentSources: parsed.assignmentSources || {} };
+      saveTagStore();
+      render(currentHref, false);
+    } catch(e) {
+      alert('tags.json 형식이 올바르지 않습니다.');
+    }
+  };
+  reader.readAsText(file);
 }
 function applyFilter(){
   const v = (q?.value || '').trim().toLowerCase();
@@ -63,7 +696,140 @@ list?.addEventListener('click', (event) => {
   const a = event.target.closest('a[data-href]');
   if (!a) return;
   event.preventDefault();
+  clearTagResult();
   render(a.dataset.href);
+});
+document.addEventListener('click', (event) => {
+  const tab = event.target.closest('.top-tab');
+  if (tab) {
+    mode = tab.dataset.mode || 'basic';
+    sessionStorage.setItem(modeKey, mode);
+    render(currentHref || hrefFromHash(), false);
+    return;
+  }
+  const openTag = event.target.closest('[data-open-tag-id]');
+  if (openTag) {
+    sessionStorage.setItem(tagResultKey, openTag.dataset.openTagId || '');
+    render(currentHref || hrefFromHash(), false);
+    return;
+  }
+  const editTag = event.target.closest('[data-edit-tag-id]');
+  if (editTag && !event.target.matches('[data-remove-tag]')) {
+    openTagEditor(editTag.dataset.editTagId || '');
+    return;
+  }
+  if (event.target.id === 'tagModalCancel' || event.target.classList?.contains('tag-modal-backdrop')) {
+    closeTagEditor();
+    return;
+  }
+  if (event.target.id === 'tagModalSave') {
+    saveTagEditor();
+    return;
+  }
+  if (event.target.id === 'tagModalDelete') {
+    deleteEditingTag();
+    return;
+  }
+  if (event.target.id === 'tagModalUsages') {
+    if (editingTagId) sessionStorage.setItem(tagResultKey, editingTagId);
+    closeTagEditor();
+    render(currentHref || hrefFromHash(), false);
+    return;
+  }
+  const openCharacter = event.target.closest('[data-open-character]');
+  if (openCharacter) {
+    event.preventDefault();
+    clearTagResult();
+    render(openCharacter.dataset.openCharacter || currentHref);
+    return;
+  }
+  if (event.target.id === 'backToTagEdit') {
+    clearTagResult();
+    render(currentHref || hrefFromHash(), false);
+    return;
+  }
+  if (event.target.id === 'showBasicFromTag') {
+    clearTagResult();
+    mode = 'basic';
+    sessionStorage.setItem(modeKey, mode);
+    render(currentHref || hrefFromHash(), false);
+    return;
+  }
+  const card = event.target.closest('.tag-card');
+  if (event.target.matches('[data-add-tags]') && card) {
+    const input = card.querySelector('[data-tag-input]');
+    addTagsToTarget(card.dataset.targetId, input?.value || '');
+    return;
+  }
+  const badge = event.target.closest('.tag-badge[data-target-id]');
+  if (badge && event.target.matches('[data-remove-tag]')) {
+    removeTag(badge.dataset.targetId, Number(badge.dataset.tagIndex));
+    return;
+  }
+  if (event.target.id === 'exportTags') downloadTags();
+  if (event.target.id === 'pruneTags') pruneUnusedTags();
+});
+document.addEventListener('input', (event) => {
+  if (event.target?.id === 'tagSearch') {
+    sessionStorage.setItem('resonance.tagSearch', event.target.value || '');
+    render(currentHref, false);
+  }
+});
+document.addEventListener('change', (event) => {
+  if (event.target?.id === 'importTags') importTags(event.target.files?.[0]);
+});
+document.addEventListener('keydown', (event) => {
+  if (event.target?.id === 'tagModalLabel' && event.key === 'Enter') {
+    saveTagEditor();
+    return;
+  }
+  if (event.key === 'Escape' && editingTagId) {
+    closeTagEditor();
+    return;
+  }
+  if (event.target?.matches('[data-tag-input]') && event.key === 'Enter') {
+    const card = event.target.closest('.tag-card');
+    addTagsToTarget(card.dataset.targetId, event.target.value || '');
+  }
+});
+document.addEventListener('dragstart', (event) => {
+  const badge = event.target.closest('.tag-badge[data-target-id]');
+  if (!badge) return;
+  event.dataTransfer.setData('text/plain', JSON.stringify({ targetId: badge.dataset.targetId, index: Number(badge.dataset.tagIndex) }));
+});
+document.addEventListener('dragover', (event) => {
+  const badge = event.target.closest('.tag-badge[data-target-id]');
+  if (!badge) return;
+  event.preventDefault();
+  document.querySelectorAll('.tag-badge.drag-over').forEach((item) => item.classList.remove('drag-over'));
+  badge.classList.add('drag-over');
+});
+document.addEventListener('dragleave', (event) => {
+  const badge = event.target.closest('.tag-badge[data-target-id]');
+  if (badge) badge.classList.remove('drag-over');
+});
+document.addEventListener('drop', (event) => {
+  const badge = event.target.closest('.tag-badge[data-target-id]');
+  if (!badge) return;
+  event.preventDefault();
+  document.querySelectorAll('.tag-badge.drag-over').forEach((item) => item.classList.remove('drag-over'));
+  try {
+    const from = JSON.parse(event.dataTransfer.getData('text/plain'));
+    const to = { targetId: badge.dataset.targetId, index: Number(badge.dataset.tagIndex) };
+    if (from.targetId !== to.targetId) return;
+    const current = tagStore.assignments[to.targetId] || [];
+    const item = current.splice(from.index, 1)[0];
+    current.splice(to.index, 0, item);
+    tagStore.assignments[to.targetId] = current;
+    saveTagStore();
+    render(currentHref, false);
+  } catch(e) {}
+});
+document.addEventListener('click', (event) => {
+  const filter = event.target.closest('[data-type-filter]');
+  if (!filter) return;
+  sessionStorage.setItem('resonance.tagType', filter.dataset.typeFilter || 'all');
+  render(currentHref, false);
 });
 q?.addEventListener('input', () => {
   applyFilter();
